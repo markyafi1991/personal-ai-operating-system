@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor / machine state
+.obsidian/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Credentials and environment (defense in depth; none should ever exist here)
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Nothing private belongs in this repo. This file is a backstop, not a strategy:
+# the repo is built allowlist-first, so confidential material is never added in
+# the first place. Do not rely on .gitignore to "hide" sensitive files here.
