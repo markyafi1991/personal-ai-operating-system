@@ -1,45 +1,29 @@
 ---
+id: bf535388-423e-4d6c-a8eb-f729986be413
+tags: [operations, reference]
+version: "2.0"
+created: 2026-11-13
+updated: 2026-11-13
 type: sop
-title: SOP - Daily Log and Change Record
-status: active
+status: draft
+synthetic: true
 ---
 
-# SOP - Daily Log and Change Record
+# Synthetic procedure — record a verified documentation change
 
-> Representative standard operating procedure. SOPs in this system are ordered,
-> specific, and verification-bearing so the work can be executed consistently
-> and handed off. This is a sanitized illustration.
+**Version 2.0** · 2026-11-13
 
-## Purpose
+Illustrative procedure only. No real daily log or release history is reproduced.
 
-Ensure every substantive working session leaves an auditable trail, so the state
-of the system is always reconstructable from its own records.
+1. Identify the owning source and the exact public paths being changed.
+2. Write new public text from approved architecture facts; use invented examples.
+3. Verify local links, source/status claims, metadata and privacy exclusions.
+4. Retain a private change/verification record. On a work surface with comments,
+   add a visible dated change comment and read it back.
+5. Commit the reviewed public files on the existing review branch; inspect the
+   remote head and preserve any previously cited evidence tags.
+6. Leave merge and applicable release acceptance to the authorized owner.
 
-## When to use
-
-At the end of any work session that changed the knowledge base, and before any
-commit that includes substantive changes.
-
-## Procedure
-
-1. **Open today's log.** If it does not exist, create it from the daily-log
-   template.
-2. **Record the work session.** One line per meaningful activity.
-3. **Record changes.** List every auditable path that was created or modified.
-   This ledger must cover everything being committed.
-4. **Record verification.** State how each change was checked (file opened,
-   numbers re-run, index row confirmed).
-5. **Record external actions.** Note anything that left the system (a message
-   sent, a deliverable shipped, a downstream mirror updated).
-6. **Record risks.** Note anything that could bite later and how it is mitigated.
-
-## Verification
-
-Before committing, confirm the change ledger lists every path in the staged
-diff. A commit whose changes are not fully reflected in the day's log does not
-proceed.
-
-## Notes
-
-This SOP is mirrored into a read-only display surface for reference, but the
-Markdown source here is canonical.
+The real operating contract has distinct rules for ordinary commits, dated logs,
+regenerated references and the separately governed private snapshot path. This
+example does not replace those rules or guarantee universal logging compliance.

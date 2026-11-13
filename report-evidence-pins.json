@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "date": "2026-11-13",
+  "report_status": "November continuation unpublished; July Beta linked",
+  "engine_status": "Beta",
+  "v1_shipped": false,
+  "evidence": [
+    {
+      "repository": "scoped-ai-workspaces",
+      "commit": "99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02",
+      "commit_url": "https://github.com/markyafi1991/scoped-ai-workspaces/commit/99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02",
+      "draft_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        34
+      ],
+      "snapshot_publication_state": "Prepared at snapshot time; see evidence release publication receipt",
+      "branch": "main",
+      "archive": {
+        "filename": "scoped-ai-workspaces-evidence-2026-11-13.zip",
+        "sha256": "9f7e7aeb73c6a059486417ff642012cdddb3e44511ffd3f25d4172fed727c030",
+        "files": 17
+      },
+      "claim_map_url": "https://github.com/markyafi1991/scoped-ai-workspaces/blob/99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02/evidence-map.json"
+    },
+    {
+      "repository": "governed-slack-collaboration",
+      "commit": "893cda33cdbddbc389e03ff18490abd10d5abc57",
+      "commit_url": "https://github.com/markyafi1991/governed-slack-collaboration/commit/893cda33cdbddbc389e03ff18490abd10d5abc57",
+      "draft_pages": [
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "snapshot_publication_state": "Prepared at snapshot time; see evidence release publication receipt",
+      "branch": "main",
+      "archive": {
+        "filename": "governed-slack-collaboration-evidence-2026-11-13.zip",
+        "sha256": "f782dca9547cc7d05a7990188ed7939d11c7685878eb8f00224ab18eae19c45b",
+        "files": 19
+      },
+      "claim_map_url": "https://github.com/markyafi1991/governed-slack-collaboration/blob/893cda33cdbddbc389e03ff18490abd10d5abc57/evidence-map.json"
+    },
+    {
+      "repository": "launch-engagement-automation",
+      "commit": "f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1",
+      "commit_url": "https://github.com/markyafi1991/launch-engagement-automation/commit/f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1",
+      "draft_pages": [
+        22,
+        23,
+        24,
+        31,
+        32
+      ],
+      "snapshot_publication_state": "Prepared at snapshot time; see evidence release publication receipt",
+      "branch": "codex/report-evidence-2026-11-13",
+      "archive": {
+        "filename": "launch-engagement-state-evidence-2026-11-13.zip",
+        "sha256": "90d72435a16cbff0d522b8c6bfebb46c6d6f2a68b5d8f66592fdc55780c28e21",
+        "files": 15
+      },
+      "claim_map_url": "https://github.com/markyafi1991/launch-engagement-automation/blob/f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1/evidence/2026-11-13/evidence-map.json"
+    },
+    {
+      "repository": "project-delivery-pack",
+      "commit": "902903de4545677e9ef1e5d51c2f26467d8a27b1",
+      "commit_url": "https://github.com/markyafi1991/project-delivery-pack/commit/902903de4545677e9ef1e5d51c2f26467d8a27b1",
+      "draft_pages": [
+        22,
+        24
+      ],
+      "snapshot_publication_state": "Prepared at snapshot time; see evidence release publication receipt",
+      "branch": "codex/report-evidence-2026-11-13"
+    }
+  ]
+}

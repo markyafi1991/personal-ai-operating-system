@@ -1,0 +1,122 @@
+[
+  {
+    "name": "markyafi1991/budget-request-demo",
+    "url": "https://github.com/markyafi1991/budget-request-demo",
+    "description": "Public synthetic demo hub: Power Apps budget requests, simple Power BI report, employee catalogue and reproducible package manifest.",
+    "fork": false,
+    "head": "23cbe3c0ba5ff7f58aa315515a2bf87a2d682907",
+    "releases": [],
+    "decision": "Retain synthetic project hub; separate project-package example"
+  },
+  {
+    "name": "markyafi1991/budget-request-demo-employees",
+    "url": "https://github.com/markyafi1991/budget-request-demo-employees",
+    "description": "Portable project-specific AI employee definitions and configuration templates for the synthetic budget-request demo.",
+    "fork": false,
+    "head": "211de9b37150c4b2c24419b6f10a6a16cc5cb765",
+    "releases": [],
+    "decision": "Retain project-specific employee definitions; no generic routing duplication"
+  },
+  {
+    "name": "markyafi1991/budget-request-demo-powerbi",
+    "url": "https://github.com/markyafi1991/budget-request-demo-powerbi",
+    "description": "Simple Power BI budget-request report for the synthetic demo. Scaffold; report implementation pending.",
+    "fork": false,
+    "head": "848c8db058907557c0719d5352402271e5721039",
+    "releases": [],
+    "decision": "Retain scaffold; implementation pending per public description"
+  },
+  {
+    "name": "markyafi1991/budget-request-demo-powerapps",
+    "url": "https://github.com/markyafi1991/budget-request-demo-powerapps",
+    "description": "Power Apps canvas front end for the synthetic budget-request demo. Scaffold; app implementation pending.",
+    "fork": false,
+    "head": "7ff4054078d4a55d880436bec161396852050c71",
+    "releases": [],
+    "decision": "Retain scaffold; implementation pending per public description"
+  },
+  {
+    "name": "markyafi1991/launch-engagement-automation",
+    "url": "https://github.com/markyafi1991/launch-engagement-automation",
+    "description": "Orchestration engine that runs a full AI/BI consulting engagement end-to-end, plus the six-reviewer governance audit it is held to. Sanitized extract from a private operations vault.",
+    "fork": false,
+    "head": "07227a5efca720229ad8000b7c3514a975f8eefe",
+    "releases": [
+      {
+        "tag": "beta",
+        "url": "https://github.com/markyafi1991/launch-engagement-automation/releases/tag/beta",
+        "published": "2026-08-06T01:12:49Z",
+        "prerelease": true
+      }
+    ],
+    "decision": "Reuse as delivery home; add isolated current state-handling evidence"
+  },
+  {
+    "name": "markyafi1991/project-delivery-pack",
+    "url": "https://github.com/markyafi1991/project-delivery-pack",
+    "description": "AI/BI consulting engagement automation \u2014 composable Claude Code skills orchestrated over tested Python, with a principal-engineer production-readiness audit.",
+    "fork": false,
+    "head": "1a01a12611bbe8ae46d647198d78b67985377293",
+    "releases": [],
+    "decision": "Retain historical pack; point to current delivery evidence instead of duplicating code"
+  },
+  {
+    "name": "markyafi1991/personal-ai-operating-system",
+    "url": "https://github.com/markyafi1991/personal-ai-operating-system",
+    "description": "A working AI operating system built on a Markdown knowledge base orchestrated by agents \u2014 architecture, 70+ agent skills, automation governance, and a cited learning pipeline. Sanitized portfolio showcase.",
+    "fork": false,
+    "head": "8ea18d907d316f0de17d5b017d7f7a377dc791e6",
+    "releases": [],
+    "decision": "Reuse as architecture hub; add current boundary and evidence map"
+  },
+  {
+    "name": "markyafi1991/robomanager-slack",
+    "url": "https://github.com/markyafi1991/robomanager-slack",
+    "description": "Two-way Slack manager bot on the Claude Agent SDK \u2014 knowledge-grounded, with code-enforced guardrails",
+    "fork": false,
+    "head": "83920bc548a31f59cb01d9b9eae15bc2fbfce077",
+    "releases": [
+      {
+        "tag": "v1.0.0",
+        "url": "https://github.com/markyafi1991/robomanager-slack/releases/tag/v1.0.0",
+        "published": "2026-06-24T19:18:16Z",
+        "prerelease": false
+      }
+    ],
+    "decision": "Retain earlier single-manager Slack design; distinct from bounded employee handoff"
+  },
+  {
+    "name": "markyafi1991/toolbox-agent",
+    "url": "https://github.com/markyafi1991/toolbox-agent",
+    "description": "AI agent that researches new software tools and keeps a Notion database updated using the Anthropic and Notion APIs",
+    "fork": false,
+    "head": "47a914258447dbaa0fc9976115d32c7abde4ae5d",
+    "releases": [],
+    "decision": "Retain tool-research agent; narrower Notion integration"
+  },
+  {
+    "name": "markyafi1991/robomanager",
+    "url": "https://github.com/markyafi1991/robomanager",
+    "description": "RoboManager v0.1.0 \u2014 the first rough public prototype of a personal life operating system.",
+    "fork": false,
+    "head": "efe189c2f8c9b2d407f1100aa30a5e9e22f6e927",
+    "releases": [
+      {
+        "tag": "v0.1.0",
+        "url": "https://github.com/markyafi1991/robomanager/releases/tag/v0.1.0",
+        "published": "2026-06-12T23:56:33Z",
+        "prerelease": false
+      }
+    ],
+    "decision": "Retain historical prototype; do not imply commissioned employee organization"
+  },
+  {
+    "name": "markyafi1991/claude-curriculum-skill",
+    "url": "https://github.com/markyafi1991/claude-curriculum-skill",
+    "description": "A Claude Code skill that acts as a private tutor: builds a university-grade curriculum (syllabus, resources, certs, projects, communities) for any subject, as a branded PDF",
+    "fork": false,
+    "head": "739f34199f44a11fb59f682bf6a11f4d9eaa7215",
+    "releases": [],
+    "decision": "Retain curriculum artifact builder; outside this report evidence increment"
+  }
+]

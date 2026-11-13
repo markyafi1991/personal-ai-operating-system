@@ -1,110 +1,95 @@
-# Personal AI Operating System
-
-A working "operating system" for running a business and a career, built on a plain-Markdown knowledge base orchestrated by AI agents. It turns a notes vault into an executable environment: 70+ purpose-built agent skills, a dozen deterministic automation engines, a hard privacy architecture, and an enforced write-protocol that keeps everything auditable.
-
-This repository is a **sanitized, curated showcase** of that system. It documents the design and engineering — architecture, agent-skill framework, automation governance, and learning pipeline — without exposing any private business, client, financial, or personal data. (See [Privacy and sanitization](#privacy-and-sanitization) for how that line is drawn.)
-
-> Built and operated by Mark (Mautez B. Yafi) — analytics and AI-systems consultant, Algonquin Consult LLC.
-
+---
+version: "2.0"
+created: 2026-11-13
+updated: 2026-11-13
 ---
 
-## What it is
+# AI Operating System — Vault Architecture Showcase
 
-Most people use an AI assistant as a chat box. This system treats AI as the **operating layer of a real business**:
+**Version 2.0** · 2026-11-13
 
-- The **knowledge base** (a Markdown vault) is the source of truth — versioned in git, navigable as a graph, durable in plain text.
-- **Agents** read and write that knowledge base through a fixed contract, governed by explicit operating principles rather than ad-hoc prompting.
-- **Skills** are reusable, versioned agent workflows — each one a documented procedure an agent can execute on demand or proactively.
-- **Automation engines** are deterministic Python scripts that keep the knowledge base consistent and mirror it into downstream display surfaces.
-- A **two-brain privacy wall** structurally separates business work from private and job-search context, enforced by file boundaries rather than by instructions.
+Mark Yafi's AI OS is a private Markdown vault with a typed knowledge graph,
+agent procedures, deterministic Python utilities and connected work surfaces.
+This repository explains the architecture actually recorded in its current
+conventions and engineering source. It publishes newly written explanations and
+invented examples; the actual vault repositories remain private. [Evidence and status](docs/evidence-and-status.md).
 
-The result is a system where work is sequenced by priority, every change is logged, every external claim is traceable to a source, and nothing automated runs without a registered, manually-proven manual version first.
-
-## Architecture at a glance
+The key separation is between durable knowledge, execution state, review fields,
+employee access and delivered evidence. Each has an owner and a different release
+boundary. A diagram describes their relationships; it does not certify their live health.
 
 ```mermaid
 flowchart TD
-    subgraph KB["Knowledge base (Markdown vault, git-versioned)"]
-        CTX["Context and strategy"]
-        OPS["Operations: logs, decisions, SOPs"]
-        WORK["Portfolio, proposals, marketing"]
-        LEARN["Learning: sources to concept maps"]
-    end
-
-    subgraph AGENTS["Agent layer (Claude Code)"]
-        CONTRACT["Operating contract\n(roles, principles, write protocol)"]
-        SKILLS["70+ agent skills"]
-    end
-
-    subgraph AUTO["Deterministic automation"]
-        ENGINES["14 Python engines\n(sync, drift, compliance, watchdog)"]
-    end
-
-    subgraph DISPLAY["Downstream display (read-only mirrors)"]
-        NOTION["Notion 'Stack' databases"]
-    end
-
-    CONTRACT --> SKILLS
-    SKILLS -->|read and write under protocol| KB
-    ENGINES -->|consistency and mirror| KB
-    KB --> ENGINES
-    ENGINES --> DISPLAY
-
-    WALL["Two-brain privacy wall:\nbusiness context never reads\njob-search or personal zones at think-time"]
-    WALL -.governs.-> SKILLS
+  H[HOME and area hubs] --> V[Typed Markdown notes and linked artifacts]
+  I[Clippings and source capture] --> L[Learning notes and cited concept maps]
+  L --> V
+  V --> N[Notion catalogs and review fields]
+  N -->|Only named owner-controlled fields| R[Explicit readback and reconciliation]
+  R --> V
+  V --> T[ClickUp business or Linear engineering execution]
+  T -->|Generated reference records| V
+  V --> X[Reviewed content selection from a source commit]
+  X --> E[Scoped private employee repositories]
+  E --> A[Separately authorized employee runtime and app access]
+  A --> S[Slack conversation and bounded handoffs]
+  V --> D[Delivery skills and deterministic gates]
+  D --> G[Verification and owner acceptance]
+  G --> P[Versioned delivery or curated public evidence]
 ```
 
-## What it demonstrates
+## Start here
 
-**AI / agent engineering.** A library of 70+ agent skills, each a self-contained, versioned workflow with explicit triggers, steps, capability requirements, and a feedback loop. Multi-agent patterns (council-style review with an independent judge), MCP connector orchestration, and a model for making behaviors *proactive* via a judgment-driven contract rather than brittle hooks. See [docs/skills-system.md](docs/skills-system.md).
-
-**Systems architecture.** A vault-as-OS design with tiered memory (hot / warm / cold), a structurally-enforced two-brain privacy wall ("keys, not prompts"), an automation-governance register, and a write protocol that keeps the whole system auditable. See [docs/architecture.md](docs/architecture.md).
-
-**Consulting capability.** Standardized deliverables, decision-record discipline, synthetic-data portfolio practice (never real client data), and operating procedures designed to be handed off. See [docs/consulting.md](docs/consulting.md).
-
-**Learning system.** A capture-to-concept pipeline that ingests books, papers, videos, and docs into cited source artifacts and distills them into living concept maps — with a hard "provenance or it doesn't ship" gate on anything generated. See [docs/learning-system.md](docs/learning-system.md).
-
-## By the numbers
-
-| | |
+| Document | What it explains |
 |---|---|
-| Agent skills | 70+ documented, versioned workflows |
-| Automation engines | 14 deterministic Python scripts (sync, drift detection, compliance, watchdogs) |
-| Knowledge-base areas | 12 top-level domains, each with a hub index |
-| Privacy zones | 3 brains (business / job-search / personal) behind a structural wall |
-| Source of truth | Plain Markdown, git-versioned |
+| [Vault architecture](docs/architecture.md) | Actual business folder roles, note metadata, hubs, MOCs and source ownership |
+| [Skills and automation](docs/skills-system.md) | Agent entry contract, deterministic utilities, review and permission boundaries |
+| [Learning lifecycle](docs/learning-system.md) | Inbox, capture, source material, course/article notes, concept maps and practice |
+| [Delivery workflow](docs/consulting.md) | Project specification, execution lane, phase gates, evidence and acceptance |
+| [Evidence and status](docs/evidence-and-status.md) | Implemented source, public demonstrations, operating rules and proposed work |
+| [Report crosswalk](docs/current-evidence-architecture.md) | November draft sections and immutable technical evidence |
+| [Publication review](docs/publication-review.md) | What was inspected, excluded and verified for this documentation revision |
 
-## Tech and methods
+## What is working, and what is still to prove?
 
-- **Markdown knowledge base** (Obsidian-compatible) as the durable source of truth
-- **Claude Code** as the agent runtime; skills authored as Markdown procedures
-- **Python** automation engines (consistency checks, downstream mirrors, drift detection, watchdogs)
-- **MCP connectors** for integrations (e.g. a Notion display mirror)
-- **git** for versioning, audit trail, and the privacy boundary
-- Scheduled, governed automation under a manual-first cadence register
+The private vault structure, metadata conventions and engineering modules were
+inspected for this revision. The public runnable evidence is narrower:
 
-## What's in this repo
+| Evidence snapshot | Reproducible scope | Tests in that slice |
+|---|---|---:|
+| [Scoped workspaces](https://github.com/markyafi1991/scoped-ai-workspaces/tree/99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02) | Committed-content selection and checked Git transaction using invented records | 17 |
+| [Slack employee collaboration](https://github.com/markyafi1991/governed-slack-collaboration/tree/893cda33cdbddbc389e03ff18490abd10d5abc57) | Offline event routing, one peer handoff and replay/failure handling | 13 |
+| [Engagement state](https://github.com/markyafi1991/launch-engagement-automation/tree/f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1/evidence/2026-11-13) | Per-engagement state, explicit revision checks and advisory-index recovery | 9 |
 
-| Path | Contents |
-|---|---|
-| [`docs/architecture.md`](docs/architecture.md) | The vault-as-OS design, memory tiers, privacy wall, write protocol |
-| [`docs/skills-system.md`](docs/skills-system.md) | The agent-skill framework, multi-agent patterns, automation governance |
-| [`docs/learning-system.md`](docs/learning-system.md) | The capture-to-concept learning pipeline and provenance gate |
-| [`docs/consulting.md`](docs/consulting.md) | Deliverable standards, decision discipline, synthetic-portfolio practice |
-| [`examples/example-skill/SKILL.md`](examples/example-skill/SKILL.md) | A representative (sanitized) agent-skill definition |
-| [`examples/sample-sop.md`](examples/sample-sop.md) | A representative operating procedure |
-| [`examples/sample-decision-note.md`](examples/sample-decision-note.md) | A representative decision record |
+Those **39 synthetic tests** passed locally and from the source archives for the
+linked evidence releases. This is not a fresh hosted CI pass or a test of the whole
+vault. Live employee commissioning, real peer round-trip acceptance, complete
+project-package reproduction and Launch-Engagement v1 acceptance require their
+own evidence. The engine remains **Beta**. See [status definitions](docs/evidence-and-status.md).
 
-## Privacy and sanitization
+## Explore a safe miniature
 
-This showcase was built **allowlist-first**: it started empty, and only explicitly-cleared, architecture-level material was added. It is a separate repository with its own git history — it shares no commits with the private operating vault, so no confidential content exists anywhere in this repo's history.
+[Synthetic vault HOME](examples/synthetic-vault/HOME.md) links a context note,
+fictional learning note, concept map and project specification. It illustrates
+the navigation and metadata relationships without exposing actual notes, studies,
+clients, task records or operating history. The examples are illustrative documents,
+not an installed Obsidian configuration or a functioning sync service.
 
-Deliberately excluded: real client data, financial records, job-search material, and all personal content. Where the system's privacy engineering is described, it is described as design — no private content is reproduced. Any portfolio example is synthetic by design.
+The [public showcase inventory](docs/public-showcase-inventory.md) records the
+prepublication duplication review. [Report evidence pins](report-evidence-pins.json)
+retain the earlier exact technical snapshots; this documentation revision does not
+rewrite those commits or their release tags.
 
-## About the author
+## Privacy and publication
 
-Mark (Mautez B. Yafi) designs and operates AI-driven systems for analytics consulting and operations. This repository is a portfolio artifact intended to show how he architects, governs, and ships AI workflows end to end.
+No private repository is converted to public. New prose and invented examples are
+selected explicitly; private records, credentials, internal grants and restricted
+source material are excluded. Gitignore affects Git selection, not what a local
+process can read. Scoped repository credentials and separately controlled app
+permissions supply distinct access boundaries. See [the boundary model](docs/skills-system.md).
 
-## License
+Published predecessor: [July Beta report](https://www.linkedin.com/feed/update/urn:li:activity:7490949064436674560).
+The November continuation is unpublished; its future public URL and PDF hash must
+be added after approval. A report edition does not establish a v1 software release.
 
-This repository is published as a portfolio showcase. The content is shared for review and reference. It is not licensed for reuse or redistribution. See [LICENSE](LICENSE).
+Authored by Mark Yafi, Algonquin Consult LLC, with AI-assisted engineering.
+Shared for portfolio review and reference under [LICENSE](LICENSE).
