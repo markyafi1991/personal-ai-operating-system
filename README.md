@@ -1,6 +1,8 @@
 # Personal AI Operating System
 
-A working "operating system" for running a business and a career, built on a plain-Markdown knowledge base orchestrated by AI agents. It turns a notes vault into an executable environment: 70+ purpose-built agent skills, a dozen deterministic automation engines, a hard privacy architecture, and an enforced write-protocol that keeps everything auditable.
+> **2026-11-13 evidence update:** [Current architecture and capability boundaries](docs/current-evidence-architecture.md), [public inventory](docs/public-showcase-inventory.md), and [report evidence pins](report-evidence-pins.json). Older counts and Notion descriptions below are historical; the dated addendum governs current claims. The engine remains Beta; the November continuation is unpublished.
+
+A working "operating system" for business knowledge and delivery, built on a plain-Markdown knowledge base orchestrated by AI agents. It turns a notes vault into an executable environment: 70+ purpose-built agent skills, a dozen deterministic automation engines, a hard privacy architecture, and an enforced write-protocol that keeps everything auditable.
 
 This repository is a **sanitized, curated showcase** of that system. It documents the design and engineering — architecture, agent-skill framework, automation governance, and learning pipeline — without exposing any private business, client, financial, or personal data. (See [Privacy and sanitization](#privacy-and-sanitization) for how that line is drawn.)
 
