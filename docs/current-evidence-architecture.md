@@ -1,36 +1,17 @@
 ---
-version: "1.0"
+version: "2.0"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
-# Current architecture and evidence boundaries
+# Report crosswalk and technical evidence
 
-**Version 1.0** · 2026-11-13
+**Version 2.0** · 2026-11-13
 
-This dated addendum supersedes older introductory prose where it describes Notion
-as universally display-only or treats role prompts as access controls. It describes
-the intended ownership model and links the executable proof separately.
-
-```mermaid
-flowchart LR
-  V[Private canonical knowledge and specifications] --> N[Notion catalogs and owner review]
-  N -->|Only explicitly assigned fields| V
-  V --> X[Selected committed-content export]
-  X --> R[Scoped private employee repositories]
-  R --> E[Employee runtime with separately scoped credentials]
-  E --> S[Slack collaboration]
-  V --> W[Engineering or business execution surface]
-  W --> D[Build and independent review]
-  D --> O[Owner acceptance]
-  O --> P[Versioned reproducible delivery]
-```
-
-Knowledge/specifications remain canonical upstream. Execution surfaces own task
-state. Notion review fields need explicit ownership; two-way authority is never
-inherited by every database. This diagram does not assert all arrows have passed
-live acceptance. Public repository evidence ships synthetic examples and selected
-code, not any of those private knowledge or execution records.
+The architecture narrative is now maintained in [architecture.md](architecture.md),
+[skills-system.md](skills-system.md), [learning-system.md](learning-system.md) and
+[consulting.md](consulting.md). This page maps the report to that explanation and
+the immutable technical evidence. [Status definitions](evidence-and-status.md).
 
 | Report draft sections | Evidence home | What can be reproduced |
 |---|---|---|
@@ -41,21 +22,17 @@ code, not any of those private knowledge or execution records.
 | Pages 22 and 24, historical delivery pack | [Project Delivery Pack](https://github.com/markyafi1991/project-delivery-pack) | Existing composable skill specification and intake/Phase 0 code; current state slice is linked rather than duplicated |
 | Pages 26–30, forecast example and analytical expectations | Proposed v1 pilot; no new runtime claim | No accepted forecast/report implementation added by this publication |
 
-Rows intentionally overlap: pages 13 and 16–17 discuss both architecture and
-the identity/access distinctions demonstrated by the narrower code slices.
 
-Employee roles, runtime identity, repository credentials and application grants
-are distinct. The public demos grant no access. Separate repositories reduce the
-content available to a scoped credential; they do not audit all account-wide apps.
-Recovery backups, employee working copies and public showcases serve different
-purposes. No actual vault, client data, private operating record or restricted
-personal material is included.
 
-Working capabilities are the code paths and tests in each evidence slice. A
-commissioned employee organization, a supported live round trip, a complete project
-package, fresh-operator acceptance and v1 release remain separate acceptance work.
-The [published July Beta report](https://www.linkedin.com/feed/update/urn:li:activity:7490949064436674560) is the predecessor. The November report
-is an unpublished owner-review draft; its edition does not establish v1 shipment.
+Rows intentionally overlap where a draft section covers both architecture and
+identity or access. Page numbers refer to the 41-page November draft, edition 1.1;
+recheck them against the final published layout. The map is not evidence that the
+entire report's architecture has passed live acceptance.
 
-References: each showcase's `evidence-map.json`, `PROVENANCE.json`, tests and
-publication review. Use the commit pins in `report-evidence-pins.json` for PDF claims.
+Published predecessor: [July Beta report](https://www.linkedin.com/feed/update/urn:li:activity:7490949064436674560).
+The November continuation remains unpublished. When approved, add its stable URL
+and PDF SHA-256 in a later reviewed commit while preserving earlier evidence pins.
+
+The engine remains Beta. [Report evidence pins](../report-evidence-pins.json) bind
+code claims to commits and archive hashes. [Publication review](publication-review.md)
+states which checks apply to this newer documentation revision.

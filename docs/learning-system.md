@@ -1,38 +1,75 @@
-# Learning System
+---
+version: "2.0"
+created: 2026-11-13
+updated: 2026-11-13
+---
 
-A core subsystem turns raw external material into durable, cited, reusable knowledge. It is built as a pipeline: **capture, distill, connect, prove.**
+# Learning as a source-linked knowledge graph
 
-## Capture: any source, one schema
+**Version 2.0** · 2026-11-13
 
-Dedicated capture skills ingest each source type into a consistent **source artifact**:
+The learning subsystem is organized around resource notes, source artifacts,
+Tool/Area MOCs, curricula and competency maps. This documents its current schema
+and operating contract; the real library and enrollment records remain private.
+[A1](evidence-and-status.md#a1).
 
-- Books and PDFs (including chapter-by-chapter consolidation of a clipped book into one source)
-- Papers and long-form articles
-- Videos (metadata plus a timestamped transcript and outline)
-- Whole documentation sites (crawled into one page-per-doc source set)
-- Web pages and reusable prompts
+## Capture and classification
 
-Every captured source is normalized to the same schema and, critically, is minted with a **citation handle** at ingest — a stable way to refer back to it later. Capture is designed to be *referenceable from the moment it enters the system.*
+`Clippings/` is a raw inbox, not authoritative strategy. A business bookmark is a
+source pointer. A capture workflow turns an eligible resource into the appropriate
+stored artifact and analysis. Heavy material belongs in `08_Learning/Sources/`;
+course/resource notes and article notes have their own roles. Sources can retain
+parent/volume relationships while a resource note holds the consumed or queued
+learning record. Capture paths depend on the resource and workflow; this is not
+one mandatory linear promotion chain for every input.
 
-## Distill: sources into concept maps
+```mermaid
+flowchart LR
+  I[Clipping or source pointer] --> C[Capture and provenance]
+  C --> S[Heavy source artifact when needed]
+  C --> R[Course or article note]
+  S --> R
+  R --> M[Tool and Area MOCs with source-linked concepts]
+  M --> P[Curriculum or competency map]
+  M --> B[Project specification and application]
+  P --> T[Practice and evidence of competence]
+  T --> B
+```
 
-Captured sources do not just sit in an archive. Their durable ideas are distilled into **maps of content (MOCs)** — living concept indexes organized by tool and subject area. Each concept asserted in a MOC links back to the source that supports it. The MOCs are the part that compounds: they are where scattered inputs become a connected body of knowledge.
+## Metadata is a contract
 
-## Connect: a structured course engine
+Shared note fields carry type, lifecycle dates and tags. Learning-specific fields
+can describe resource type, author/publisher, original URL, area/tool, progress,
+quality rating and a saved viewing position. `status` describes the note lifecycle;
+`progress` describes learning progress. Resource presence, a saved bookmark, a
+quality score, enrollment and demonstrated competence are different states.
 
-On top of capture and concept maps sits a teaching layer:
+The source URL and citation handle make later claims traceable. When a resource
+has pages, timestamps or chapter parents, the claim should identify the relevant
+location. A schema requiring provenance does not prove that every existing capture
+is complete; audits identify missing evidence. Captured paywalled text is not
+reproduced in this showcase.
 
-- A **curriculum** skill researches current best resources and lays out a complete, level-appropriate learning plan for any subject, with projects, self-tests, and milestones.
-- An **academy** skill acts as a driven, competency-gated tutor: it teaches each node, makes you practice, proves competency with a drill, and only advances when mastery is demonstrated — descending to a missing prerequisite when you fail and routing the gaps into spaced-repetition flashcards.
+## MOCs connect knowledge to work
 
-This separates the static plan (curriculum) from the active teacher (academy), and grounds both in the captured, cited source library.
+A Tool/Area MOC links reusable concepts to the resource notes supporting them and
+to applications. It lets a project find the relevant evidence without treating the
+raw inbox as its source of truth. The [synthetic MOC](../examples/synthetic-vault/08_Learning/MOCs/Example%20Topic%20MOC.md)
+and [project note](../examples/synthetic-vault/04_Portfolio/Example%20Project.md)
+illustrate this relationship with completely invented content.
 
-## Prove: provenance or it doesn't ship
+## Programs and execution surfaces
 
-The system enforces a hard anti-plagiarism principle: **every substantive factual claim, statistic, quotation, or borrowed framework in anything generated must trace to a specific source.**
+Curricula organize a path; skill trees track prerequisites and evidence; tutoring
+and practice workflows can use them. Enrollment is a separate execution choice.
+The current operating contract assigns committed membership to the designated
+program board, with narrowly scoped reconciliation. Notion learning/catalog views
+do not become a universal source for rewriting captured notes. Legacy schema
+wording is interpreted through the current owning contract when they disagree.
 
-This is operationalized as a pre-ship gate. Before any external deliverable leaves the system, a citation check maps each substantive claim to a source and builds a references section. An untraceable claim is not allowed to slide — it is either fixed with a citation or cut. A companion audit proves the *ingest* side stays healthy: every captured source still carries its citation handle, and every concept in a concept map still links to a source.
+This documentation review did not exercise a live enrollment round trip, tutoring
+session, flashcard integration or all capture adapters. Those capabilities must be
+judged on their own run evidence. No actual learning history is published.
 
-## Why it is built this way
-
-The pipeline guarantees that knowledge entering the system is referenceable, that synthesized concepts stay traceable to their origins, and that nothing the system produces for the outside world rests on an unsourced claim. It is the same discipline a good analyst or researcher applies — encoded into the workflow so it happens by default rather than by memory.
+References: [A1 and capability limits](evidence-and-status.md#a1),
+[ownership table](architecture.md), [synthetic miniature](../examples/synthetic-vault/HOME.md).

@@ -1,12 +1,15 @@
 ---
-version: "1.0"
+version: "1.1"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # Public showcase inventory
 
-**Version 1.0** · 2026-11-13
+**Version 1.1** · 2026-11-13
+
+This is a prepublication snapshot; not a live repository count. The two subsequent
+showcases are linked from the current README. Original inspected commit pins are retained.
 
 Inventory date: 2026-11-13. 22 public owned repositories were inventoried;
 the 11 relevant AI OS, delivery, agent and synthetic demo showcases are listed below.

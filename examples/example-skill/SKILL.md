@@ -1,46 +1,34 @@
 ---
 name: example-skill
-description: Representative agent-skill definition showing the structure every skill in the system follows. A skill is a versioned, self-contained workflow an agent can execute consistently. This example is a sanitized illustration, not a working skill.
+description: Synthetic illustration of the current procedure and access model.
+version: "2.0"
+created: 2026-11-13
+updated: 2026-11-13
 ---
 
-# Example Skill
+# Synthetic agent procedure example
 
-> This file illustrates the shape of an agent skill in this system. Real skills
-> follow the same structure: front-matter with a name, a description, and trigger
-> phrases; ordered steps; explicit capability requirements; a verification step;
-> and a feedback loop.
+**Version 2.0** · 2026-11-13
 
-## Trigger phrases
+This is an illustrative procedure, not an installed executable skill.
 
-Invoke when the user says: "/example-skill", "run the example workflow", or
-describes the task this skill automates in natural language.
+## Trigger and context
 
-## Before proceeding
-
-Load orienting context first: the current-state hub, the active priorities, and
-any companion notes for the area this skill touches. Treat the operating
-contract's standing principles as binding.
+Given an invented project note, prepare a short evidence checklist. Read the
+applicable operating contract, area hub and owner context first. Use only the
+explicit synthetic inputs. This example authorizes no connection or external write.
 
 ## Steps
 
-1. **Load context.** Read the relevant hub note and recent operational logs so
-   the work is grounded in current state, not assumptions.
-2. **Do the work.** Execute the procedure as ordered, specific steps with
-   explicit paths and decision points. Keep one step in progress at a time.
-3. **Verify.** State how the result was checked — open the file, re-read the
-   index row, re-run the numbers. Report "verified," not "asserted."
-4. **Write protocol.** Update the touched note's timestamp and append a work
-   session to the day's log with the standard ledgers (work, change,
-   verification, external actions, risks).
+1. Identify the claim, input and required evidence.
+2. Separate a documented requirement from a demonstrated result.
+3. Run an authorized deterministic check when one exists; record its exact scope.
+4. Stop at missing access, required human acceptance or an uncertain external effect.
+5. Record the changed paths, verification and remaining questions privately.
 
-## Capability requirements
+## Capabilities and verification
 
-Uses file read / write / edit, search, and shell capabilities available in the
-current agent surface. Capabilities are named generically, not by product, so
-the skill is portable across agent runtimes.
-
-## Feedback loop
-
-A skill is never finished. After a run, capture what worked and what did not in
-the skill's companion note, and fold improvements back into this file in the
-same session.
+Reading this file grants no filesystem, repository or application capability.
+Tool permissions must be established separately. A real skill may call tested code;
+the procedure text alone supplies no hard guarantee. Verification requires an
+observable result and an honest account of what was not tested.

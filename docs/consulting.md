@@ -1,31 +1,73 @@
-# Consulting Capability
+---
+version: "2.0"
+created: 2026-11-13
+updated: 2026-11-13
+---
 
-The system is not only AI infrastructure — it is how a consulting practice is actually run. The same discipline that makes the agent layer trustworthy makes the client-facing work professional and repeatable.
+# From a project specification to accepted delivery
 
-## Standardized deliverables
+**Version 2.0** · 2026-11-13
 
-Client-facing documents are produced from versioned templates with a consistent visual standard (typography, palette, headers and footers). Deliverables are always shipped as clean final outputs — no tracked changes, no redlines — and the latest template version is the starting point every time. The goal is that any deliverable looks like it came from the same firm, because it did.
+The delivery architecture connects reusable knowledge to a project dossier,
+structured intake, execution state, phase artifacts, verification and owner
+acceptance. This page describes the operating design and separates its public
+implementation evidence from later integration targets. [A1](evidence-and-status.md#a1).
 
-## Decision discipline
+## Specification and execution have different owners
 
-Significant decisions are not made in chat and forgotten. Each one becomes a **decision record** — context, the decision, the alternatives considered, and the consequences — logged in a decision index. This creates an institutional memory of *why* things are the way they are, which is exactly what is missing in most small operations and what makes later work defensible.
+The vault holds the project origin, intended outcomes, requirements and reusable
+procedures. Business execution uses ClickUp; engineering/software execution uses
+Linear. Generated references can reflect task state into the vault, while the work
+surface remains authoritative for status, assignee, dates and discussion. A portfolio
+publication lifecycle and the code work for that piece may be separate linked work;
+they are not interchangeable status records.
 
-A standing **devil's-advocate protocol** pressure-tests major decisions before they are committed: the system argues against the decision, surfaces blind spots and second-order effects, and forces the reasoning to hold up before it is locked in.
+## The delivery spine
 
-## Synthetic-data portfolio practice
+The private Launch-Engagement implementation and procedures organize intake,
+scaffolding, discovery, KPI design, applicable kit/build/QA/handoff work, readout,
+value and closeout. Lane selection determines which phases apply. Reusable kits
+are starting points; a deployed project owns its specific requirements and evidence.
+The historical public extract has a narrower runnable surface than the private
+engine and names that limit. [Historical public engine](https://github.com/markyafi1991/launch-engagement-automation).
 
-Portfolio and marketing work uses **synthetic data only** — a designed, fictional engagement built to demonstrate capability. Real client data never appears in portfolio or marketing material, and the synthetic nature of portfolio work is never misrepresented as a real engagement.
+The more recent [state evidence slice](https://github.com/markyafi1991/launch-engagement-automation/tree/f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1/evidence/2026-11-13) demonstrates separate project state
+paths, atomic primary persistence, mode 0600 and opt-in stale-revision checks.
+Callers must supply `expected_revision`; omitting it skips the comparison. Its
+human-readable index is best-effort and is not a cross-project transactional
+database. Nine tests cover the mapped slice, not the full phase chain. [A4](evidence-and-status.md#a4).
 
-This is both an ethical line and a capability demonstration: building a convincing, end-to-end synthetic case study (data model, analysis, deliverable) shows the work without ever putting a real client's information at risk.
+## Artifact identity and approvals
 
-## Operating procedures built to hand off
+The delivery design uses definitions of done, receipts, current artifact hashes
+and phase prerequisites so later work can detect changed inputs. Evidence binding,
+approval attribution and actual external acceptance are different questions.
+A name in a receipt is not cryptographic identity; an instruction to obtain a
+human approval does not prove the approval happened. Public examples must not
+inflate an internal attestation into independently observed acceptance.
 
-Recurring work is written up as **standard operating procedures** — ordered, specific, with explicit verification steps — so the work can be executed consistently and eventually delegated (to a person or an agent) without loss of quality. Procedures are kept canonical in the knowledge base and mirrored into a shared display surface for reference.
+The reproducible package target includes code, inputs/assumptions, saved tests and
+expectations, dependency/environment instructions, artifacts, checksums, operating
+instructions and a recovery path. Full fresh-operator reproduction and the first
+accepted end-to-end v1 engagement remain acceptance work. A source archive for a
+small code slice does not establish completion of that larger package contract.
 
-## Sequencing and pushback
+## Decisions and outward work
 
-The operating contract requires the agent to act as a partner, not an order-taker: sequence work by priority with prerequisites first, flag scope risk before it becomes a problem, and push back on requests that conflict with standing principles. In practice this means the system is biased toward doing the *right next thing*, one step at a time, rather than whatever was asked most recently.
+Durable decisions record context, a choice and consequences; procedures describe
+repeatable steps. Versions and visible dates identify authored deliverables.
+Substantive changes and verification belong in the private change record. The
+examples in this repository are newly invented, not excerpts from that record.
 
-## The throughline
+Portfolio intake permits synthetic or appropriately approved public data. This
+showcase uses invented inputs throughout. Actual client information, private
+proposals, operational records and restricted material are excluded. Provenance
+and publication review are required for outward claims; a documented requirement
+is not proof that every historical deliverable satisfied it.
 
-Provenance, verification, decision records, standardized output, and synthetic-only portfolio practice are the same habits that make good consulting — encoded into the operating system so they are the default, not an act of willpower on a busy day.
+## Current release meaning
+
+The engine is **Beta**. The evidence snapshot identifiers and report editions
+identify documents and code snapshots; they do not establish v1 shipment. The
+[report crosswalk](current-evidence-architecture.md) identifies the exact public
+proof supporting the narrative. [Evidence and status](evidence-and-status.md).
