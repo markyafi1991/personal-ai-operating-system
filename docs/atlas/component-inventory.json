@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "date": "2026-11-13",
+  "scope": "Explicit business procedure catalog and selected engineering modules; not a whole-vault count or runtime audit",
+  "business_procedures": {
+    "Capture and source preparation": [
+      "youtube-capture",
+      "webpage-capture",
+      "docs-capture",
+      "oreilly-capture",
+      "oreilly-book-source",
+      "epub-capture",
+      "local-video-capture",
+      "linkedin-learning-capture",
+      "social-post-capture",
+      "clipped-youtube-capture",
+      "clippings-curator"
+    ],
+    "Knowledge and learning design": [
+      "learn-first",
+      "vault-first",
+      "synthesis-scan",
+      "coursework",
+      "curriculum",
+      "academy",
+      "skill-tree",
+      "anki-cards",
+      "curriculum-review"
+    ],
+    "Strategy and decision support": [
+      "situation-assessment",
+      "strategic-options",
+      "decision-memo",
+      "assumption-audit",
+      "business-case-builder",
+      "competitive-intel",
+      "customer-segmentation",
+      "growth-barriers",
+      "initiative-prioritizer",
+      "kpi-architect",
+      "market-mapping",
+      "narrative-builder",
+      "operating-model-design",
+      "portfolio-review",
+      "pricing-strategy",
+      "profit-pool-analysis",
+      "risk-and-mitigation",
+      "stakeholder-alignment",
+      "transformation-roadmap",
+      "value-realization",
+      "war-gaming"
+    ],
+    "Delivery and artifact production": [
+      "launch-engagement",
+      "start-project",
+      "project-kit",
+      "report-builder",
+      "instructions-pdf",
+      "vault-manual",
+      "creative-project",
+      "tutorial-project"
+    ],
+    "Catalog and integration workflows": [
+      "skill-stack-sync",
+      "sop-stack-sync",
+      "moc-stack-sync",
+      "vault-map-sync",
+      "connector-stack-sync",
+      "tool-stack-sync",
+      "skill-tree-sync",
+      "learning-clickup-sync",
+      "addon-stack-sync",
+      "github-stars-sync",
+      "task-reconcile"
+    ],
+    "Verification and maintenance": [
+      "cite",
+      "verify-build",
+      "daily-log",
+      "session-handoff",
+      "vault-linter",
+      "sync-technical-docs",
+      "tool-audit",
+      "skill-audit"
+    ]
+  },
+  "selected_procedure_count": 68,
+  "engineering_families": {
+    "Catalog manifests": [
+      {
+        "module": "skill_stack_sync.py",
+        "physical_lines": 370,
+        "top_level_functions": 14
+      },
+      {
+        "module": "sop_stack_sync.py",
+        "physical_lines": 157,
+        "top_level_functions": 6
+      },
+      {
+        "module": "moc_stack_sync.py",
+        "physical_lines": 281,
+        "top_level_functions": 10
+      },
+      {
+        "module": "vault_map_sync.py",
+        "physical_lines": 413,
+        "top_level_functions": 15
+      },
+      {
+        "module": "connector_stack_sync.py",
+        "physical_lines": 220,
+        "top_level_functions": 9
+      },
+      {
+        "module": "tool_stack_sync.py",
+        "physical_lines": 754,
+        "top_level_functions": 22
+      },
+      {
+        "module": "skill_tree_sync.py",
+        "physical_lines": 233,
+        "top_level_functions": 11
+      },
+      {
+        "module": "learning_resources_sync.py",
+        "physical_lines": 230,
+        "top_level_functions": 12
+      },
+      {
+        "module": "addon_stack_sync.py",
+        "physical_lines": 253,
+        "top_level_functions": 9
+      },
+      {
+        "module": "github_stars_sync.py",
+        "physical_lines": 205,
+        "top_level_functions": 11
+      }
+    ],
+    "Reconciliation and drift": [
+      {
+        "module": "task_reconcile.py",
+        "physical_lines": 292,
+        "top_level_functions": 12
+      },
+      {
+        "module": "learning_clickup_sync.py",
+        "physical_lines": 977,
+        "top_level_functions": 32
+      },
+      {
+        "module": "notion_mirror_drift.py",
+        "physical_lines": 260,
+        "top_level_functions": 3
+      }
+    ],
+    "Source curation and integrity": [
+      {
+        "module": "clippings_catalog.py",
+        "physical_lines": 802,
+        "top_level_functions": 19
+      },
+      {
+        "module": "log_compliance_check.py",
+        "physical_lines": 299,
+        "top_level_functions": 12
+      },
+      {
+        "module": "engagement_trace.py",
+        "physical_lines": 513,
+        "top_level_functions": 21
+      }
+    ],
+    "Workspace construction": [
+      {
+        "module": "agent_workspaces/build_workspace.py",
+        "physical_lines": 987,
+        "top_level_functions": 44
+      },
+      {
+        "module": "vault_publish.py",
+        "physical_lines": 779,
+        "top_level_functions": 14
+      }
+    ],
+    "Employee collaboration": [
+      {
+        "module": "slack_employee_hub/coordinator.py",
+        "physical_lines": 113,
+        "top_level_functions": 3
+      },
+      {
+        "module": "slack_employee_hub/run.py",
+        "physical_lines": 259,
+        "top_level_functions": 9
+      }
+    ]
+  },
+  "selected_engineering_module_count": 20,
+  "launch_engagement": {
+    "scripts": {
+      "python_files": 41,
+      "physical_lines": 13914,
+      "declared_test_functions": 0
+    },
+    "tests": {
+      "python_files": 17,
+      "physical_lines": 7901,
+      "declared_test_functions": 366
+    }
+  },
+  "measurement_method": "Filesystem existence plus AST inspection; physical lines include blank lines/comments; test definitions are not execution results"
+}
