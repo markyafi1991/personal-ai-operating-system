@@ -8,6 +8,9 @@ updated: 2026-11-14
 
 **Version 3.1** · 2026-11-14
 
+Showcase package: **3.1.0-rc.1** · [Version policy](VERSIONING.md) ·
+[Changelog](CHANGELOG.md) · [Release manifest](release-manifest.json)
+
 **How do you give AI agents useful context without giving them uncontrolled authority?**
 
 AI OS is Mark Yafi's knowledge and delivery system: typed Markdown knowledge,

@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "version": "3.1.0-rc.1",
+  "tag": "showcase-v3.1.0-rc.1",
+  "date": "2026-11-14",
+  "channel": "release-candidate",
+  "scope": "Public showcase package only; engine remains Beta; v1_shipped is false.",
+  "v1_shipped": false,
+  "manifest_excludes": [
+    "release-manifest.json"
+  ],
+  "evidence_pins_sha256": "a5845abad7d59ae5f765416c21f17396c1f443bf5f616ce354da397ddf8b542f",
+  "files": {
+    ".gitignore": {
+      "sha256": "e9233f17352fe8744d8898da1dc839291f1c84c562e64147e1e9b8ff2907ad06",
+      "bytes": 452
+    },
+    "CHANGELOG.md": {
+      "sha256": "38583ffef48fb24e0842fe196f9225347aac16d8277c1e6ba58cfd2e9f426f35",
+      "bytes": 1295
+    },
+    "LICENSE": {
+      "sha256": "0fd7b16ff5308757c8ae0d4797136b1e16611115da3a39c7a03368ab7226d609",
+      "bytes": 459
+    },
+    "README.md": {
+      "sha256": "e8d44986596dffb0102b62264f051337d9077c1f8e0b3c793ab878e7b14de066",
+      "bytes": 8249
+    },
+    "VERSION": {
+      "sha256": "6d8a34718ea306c7e03719b8700d219b2eab836651286368ec957e1eb9f2ba5a",
+      "bytes": 11
+    },
+    "VERSIONING.md": {
+      "sha256": "2ca82d1b18e86436d21db513a7c5dbf4b68329f845c6a33711b24f8c0d54fc25",
+      "bytes": 4641
+    },
+    "assets/architecture-overview.svg": {
+      "sha256": "c02668a0ad207b6c026a280bfec8228f84917a0759484cdec6442c5bd5db1444",
+      "bytes": 9266
+    },
+    "assets/proof-results.svg": {
+      "sha256": "ce5c46abc8fb22c48d8600bb37070633990bf6dd532c23983df465bf2c950e6a",
+      "bytes": 4452
+    },
+    "assets/showcase-cover.svg": {
+      "sha256": "ee2961324ca48558d0402a14cd7cd370f5516799da25983f6b916f3fef095684",
+      "bytes": 4193
+    },
+    "docs/architecture.md": {
+      "sha256": "3761b4f913decd94c628a2516a336eab1742fd47d13338eb796e8dfa9450b699",
+      "bytes": 6361
+    },
+    "docs/atlas/README.md": {
+      "sha256": "3d0899637271eadaace1588f3abaf3f817254980ec3bb039f3af6fcf57f065c7",
+      "bytes": 5364
+    },
+    "docs/atlas/agent-runtime.md": {
+      "sha256": "cd1e2df27588ed1ba6fa06f9190bf42408b5f325b89fd3471b28bc1233a3952e",
+      "bytes": 4914
+    },
+    "docs/atlas/component-catalog.md": {
+      "sha256": "746a62c3cbf704111f286cd8a26a73504a8b743786a6095ce94a224e01d596ea",
+      "bytes": 5506
+    },
+    "docs/atlas/component-inventory.json": {
+      "sha256": "fb5ef4e4ba8964fe04d280c85017f58713f7b991536c016f3f846a429bd96855",
+      "bytes": 5420
+    },
+    "docs/atlas/connected-catalogs.md": {
+      "sha256": "f0262786b64f95cf6a951b9a268eedbe676c429a03604cd0052cdfe6c5a425c3",
+      "bytes": 5489
+    },
+    "docs/atlas/delivery-engine.md": {
+      "sha256": "2498eb5a03be74441f84fecdded9727813fbf047a9d6d7516159d8981c7ef24c",
+      "bytes": 6290
+    },
+    "docs/atlas/design-tradeoffs.md": {
+      "sha256": "35d36ebd714abe2ced7b0016e2aba4c5a5b138dfe540b1b2beb1d5343f35686e",
+      "bytes": 3114
+    },
+    "docs/atlas/information-lifecycle.md": {
+      "sha256": "e1746547d590c6d3a1854bb0bbf3a01adc14df398221b94b2ed3e50fcaf7a970",
+      "bytes": 4972
+    },
+    "docs/atlas/knowledge-model.md": {
+      "sha256": "39e93d50fbe2a379fd1758f97286812c8e5ccbbc51742c3300f837235107fa39",
+      "bytes": 5600
+    },
+    "docs/atlas/permissions-and-publication.md": {
+      "sha256": "243fec4096cb54272de8cd0129c2c26d2ff7ae7e017832f75c1ef4855375ad59",
+      "bytes": 5753
+    },
+    "docs/atlas/reliability.md": {
+      "sha256": "53f0dc2f9e5a5f593638c004621414b78ab5273749151d570e5ee83442c67952",
+      "bytes": 5433
+    },
+    "docs/atlas/synchronization.md": {
+      "sha256": "bccb2ead7d56897dc628a48577c1e060c6f4a522174e083a50afcbe1ec176a05",
+      "bytes": 5130
+    },
+    "docs/atlas/worked-journeys.md": {
+      "sha256": "b1488ba6c3619af2a23213bb8fd37dfe96d5c4d2bcf9f5a14a6bb7b836f3702e",
+      "bytes": 5465
+    },
+    "docs/consulting.md": {
+      "sha256": "7b5faecb242a57b909ac26b46d7800e33e21f9139b7a3e2389f1ac9e6228e25e",
+      "bytes": 4153
+    },
+    "docs/current-evidence-architecture.md": {
+      "sha256": "80f6ea3e90daf1a71697f1abd715bac8bde866f895fc97d9a49405f042e47721",
+      "bytes": 2742
+    },
+    "docs/engineering-review.md": {
+      "sha256": "87a9c4e7f3edee5d72fe1eebb7910d7577eae08c3d63a6300dd4669cdb655930",
+      "bytes": 8956
+    },
+    "docs/evidence-and-status.md": {
+      "sha256": "78b5941bb06c7c4a90d9706a4a7eab47034b0bd497719debaff3f9ad05885210",
+      "bytes": 5561
+    },
+    "docs/learning-system.md": {
+      "sha256": "ca1afe665f4262a9fc96d37f875a82d8cf4e551c172b34e58ed566c1e7baf8e8",
+      "bytes": 3640
+    },
+    "docs/public-inventory.json": {
+      "sha256": "23981955b850d9156fec78d388075e9c1ad0b301229aaa28d6b4b5cb57edbac1",
+      "bytes": 5819
+    },
+    "docs/public-showcase-inventory.md": {
+      "sha256": "82afad9202dd7fd14347fa4e94cb259e078ef7e351d4ad685429729862b4aecc",
+      "bytes": 4524
+    },
+    "docs/publication-review.md": {
+      "sha256": "1c55737daa8c79b640841c40481e46119b127fcedd5b3605be754aa9c9b6b555",
+      "bytes": 6614
+    },
+    "docs/reproduce.md": {
+      "sha256": "0629ec6e6f2216f65cb64c648aa4861544e423b6a35e199c86cbc31dca18cdff",
+      "bytes": 6253
+    },
+    "docs/skills-system.md": {
+      "sha256": "377228de405427b0c60f069ae2ccaee7457712cb61a418fd6a8519bb05339e03",
+      "bytes": 4320
+    },
+    "evidence/2026-11-14/README.md": {
+      "sha256": "a0f27f1126c483fc86e118641b58273ef101b21df8e0150d216afc62220c316b",
+      "bytes": 2238
+    },
+    "evidence/2026-11-14/governed-slack-collaboration-demo.json": {
+      "sha256": "0ec4f6bd7256ed7d32d4067b3fb3c47e030bc6b1a33b71c0b3dae2dc1d805cb3",
+      "bytes": 853
+    },
+    "evidence/2026-11-14/governed-slack-collaboration-tests.txt": {
+      "sha256": "f07a123d4438b0e28989fcd699951246de0c32d3738bd45220d163d27136ca4a",
+      "bytes": 1744
+    },
+    "evidence/2026-11-14/launch-engagement-automation-demo.json": {
+      "sha256": "85ce476d927bd348c2a4174b0befc54dd2a60966c8f49ad87821abe9373e40f7",
+      "bytes": 156
+    },
+    "evidence/2026-11-14/launch-engagement-automation-tests.txt": {
+      "sha256": "099cf7591927fbc2e7bdcc7b7a9081a1286aeded363b33c4c1a8920db0d8f1d6",
+      "bytes": 1041
+    },
+    "evidence/2026-11-14/scoped-ai-workspaces-demo.json": {
+      "sha256": "87017cd4f8adac292729cf6bf063167983e34270294a0faa899dbcb28e7f4ab8",
+      "bytes": 203
+    },
+    "evidence/2026-11-14/scoped-ai-workspaces-tests.txt": {
+      "sha256": "d8c4a6637dc525805f86af7517a47fcc5aa5307c22bd6a11b5e24dcdad5bf32a",
+      "bytes": 2149
+    },
+    "evidence/2026-11-14/verification.json": {
+      "sha256": "e07817a93c000bd3ef86380666e71010599ff211158a2195a9e49293cfd9cd56",
+      "bytes": 6935
+    },
+    "examples/example-skill/SKILL.md": {
+      "sha256": "8989d4ccb276d29b454e5968da628b98f57fdff9443d39c7681c549dd7c20ff3",
+      "bytes": 1277
+    },
+    "examples/sample-decision-note.md": {
+      "sha256": "ea42b4be320315f9c5b093d84d088e252912e18722e59e1e8f0c017e5d099b66",
+      "bytes": 1368
+    },
+    "examples/sample-sop.md": {
+      "sha256": "21ebf6562459b384d2b12aae473d0d9d78a8bc5091097a8282768b33323109be",
+      "bytes": 1181
+    },
+    "examples/synthetic-vault/00_Context/Example Context.md": {
+      "sha256": "e848be505162e9b6f77be4a32512c66246701792daa0e8d09b6525de6c02360a",
+      "bytes": 448
+    },
+    "examples/synthetic-vault/04_Portfolio/Example Project.md": {
+      "sha256": "48add28f8c6b1514f78597cc5eb425ef723ed929fc4eb1f6f3820b5a66a4cc9b",
+      "bytes": 975
+    },
+    "examples/synthetic-vault/08_Learning/Courses/Example Resource.md": {
+      "sha256": "3ad50bb07a21cce4e8983e1198a2262cb63af229a5fd379e02307add108911df",
+      "bytes": 939
+    },
+    "examples/synthetic-vault/08_Learning/MOCs/Example Topic MOC.md": {
+      "sha256": "cb74b38373d1241cc1dde7a64e954180e7f0530fe825d1d27bd8884755fb686b",
+      "bytes": 632
+    },
+    "examples/synthetic-vault/HOME.md": {
+      "sha256": "8b99decc2a4f9eaf9f1f27fbab2f49f97328f09d83060b56a56ff1b5a399fe38",
+      "bytes": 935
+    },
+    "report-evidence-pins.json": {
+      "sha256": "a5845abad7d59ae5f765416c21f17396c1f443bf5f616ce354da397ddf8b542f",
+      "bytes": 3182
+    }
+  }
+}
