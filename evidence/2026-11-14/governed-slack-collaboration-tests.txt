@@ -1,0 +1,18 @@
+test_bad_handoff_has_no_post (test_collaboration.CollaborationTests.test_bad_handoff_has_no_post) ... ok
+test_duplicate_json_field_rejected (test_collaboration.CollaborationTests.test_duplicate_json_field_rejected) ... ok
+test_event_replay_does_not_call_model_or_send (test_collaboration.CollaborationTests.test_event_replay_does_not_call_model_or_send) ... ok
+test_external_shared_channel_rejected (test_collaboration.CollaborationTests.test_external_shared_channel_rejected) ... ok
+test_handoff_context_and_same_thread (test_collaboration.CollaborationTests.test_handoff_context_and_same_thread) ... ok
+test_missing_question_unknown_employee_and_invalid_event_id (test_collaboration.CollaborationTests.test_missing_question_unknown_employee_and_invalid_event_id) ... ok
+test_peer_failure_leaves_one_post_and_receipt (test_collaboration.CollaborationTests.test_peer_failure_leaves_one_post_and_receipt) ... ok
+test_question_limit (test_collaboration.CollaborationTests.test_question_limit) ... ok
+test_rendered_mentions_are_not_activated (test_collaboration.CollaborationTests.test_rendered_mentions_are_not_activated) ... ok
+test_roster_duplicate_provider_and_oversize_refused (test_collaboration.CollaborationTests.test_roster_duplicate_provider_and_oversize_refused) ... ok
+test_unauthorized_events_rejected (test_collaboration.CollaborationTests.test_unauthorized_events_rejected) ... ok
+test_uncertain_send_is_not_automatically_retried (test_collaboration.CollaborationTests.test_uncertain_send_is_not_automatically_retried) ... ok
+test_wrong_workspace_rejected (test_collaboration.CollaborationTests.test_wrong_workspace_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.008s
+
+OK

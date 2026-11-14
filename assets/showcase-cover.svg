@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="540" viewBox="0 0 1440 540" role="img" aria-labelledby="title desc"><metadata>Version 3.1; created 2026-11-14; updated 2026-11-14</metadata><title id="title">AI OS — context, authority and evidence</title><desc id="desc">An architecture case-study cover. Knowledge flows through governed work into checked results. This is a conceptual map, not a screenshot of a deployed service.</desc>
+<rect x="0" y="0" width="1440" height="540" rx="24" fill="#f5f3eb"/>
+<rect x="0" y="0" width="852" height="540" rx="24" fill="#102d25"/>
+<rect x="820" y="0" width="32" height="540" rx="0" fill="#102d25"/>
+<text x="52" y="58" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#c2d7cb">ALGONQUIN CONSULT  /  AI OS</text>
+<text x="618" y="58" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#c2d7cb">V3.1 / 14 NOV 2026</text>
+<rect x="52" y="91" width="62" height="4" rx="0" fill="#e4c479"/>
+<text x="52" y="170" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Useful context.</text>
+<text x="52" y="241" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Bounded authority.</text>
+<text x="52" y="312" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Inspectable evidence.</text>
+<text x="52" y="374" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#d8e6dc">A knowledge and delivery system built around</text>
+<text x="52" y="409" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#d8e6dc">explicit contracts and recoverable decisions.</text>
+<text x="52" y="487" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#e4c479">MARK YAFI</text>
+<text x="218" y="487" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#c2d7cb">ARCHITECTURE + SELECTED OFFLINE PROOF</text>
+<rect x="902" y="70" width="486" height="110" rx="14" fill="#ffffff" stroke="#d7dfd6"/>
+<rect x="926" y="94" width="48" height="48" rx="12" fill="#eaf0e9"/>
+<text x="937" y="125" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#173b2d">01</text>
+<text x="994" y="113" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#173b2d">Knowledge</text>
+<text x="994" y="148" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#425e4d">Typed notes + source provenance</text>
+<path d="M1145 180 V209" stroke="#799684" stroke-width="2"/>
+<path d="M1139 202 L1145 209 L1151 202" fill="none" stroke="#799684" stroke-width="2"/>
+<rect x="902" y="212" width="486" height="110" rx="14" fill="#ffffff" stroke="#d7dfd6"/>
+<rect x="926" y="236" width="48" height="48" rx="12" fill="#eaf0e9"/>
+<text x="937" y="267" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#173b2d">02</text>
+<text x="994" y="255" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#173b2d">Governed work</text>
+<text x="994" y="290" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#425e4d">Scoped context + explicit ownership</text>
+<path d="M1145 322 V351" stroke="#799684" stroke-width="2"/>
+<path d="M1139 344 L1145 351 L1151 344" fill="none" stroke="#799684" stroke-width="2"/>
+<rect x="902" y="354" width="486" height="110" rx="14" fill="#ffffff" stroke="#d7dfd6"/>
+<rect x="926" y="378" width="48" height="48" rx="12" fill="#eaf0e9"/>
+<text x="937" y="409" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#173b2d">03</text>
+<text x="994" y="397" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#173b2d">Checked results</text>
+<text x="994" y="432" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#425e4d">Tests + review + artifact identity</text>
+<text x="902" y="503" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#425e4d">Conceptual map. Public proof is synthetic.</text>
+</svg>

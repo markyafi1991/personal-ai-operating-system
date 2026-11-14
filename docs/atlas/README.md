@@ -1,17 +1,20 @@
 ---
-version: "3.0"
+version: "3.1"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Architecture atlas — how the vault works as a system
 
-**Version 3.0** · 2026-11-13
+**Version 3.1** · 2026-11-14
 
 This atlas follows the implementation seams that make the vault more than a
 folder tree: entity identity, provenance, ownership, state transitions, scoped
 materialization, decision gates and recovery. It complements the shorter reference
 pages with mechanisms, data contracts and failure cases.
+
+New to the project? Start with the [engineering review](../engineering-review.md)
+and [reproducible public proof](../reproduce.md), then use this atlas for depth.
 
 ## Engineering reading path
 

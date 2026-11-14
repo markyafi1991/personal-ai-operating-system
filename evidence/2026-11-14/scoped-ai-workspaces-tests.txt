@@ -1,0 +1,22 @@
+test_all_shipped_secret_signatures_reject_synthetic_bytes (test_boundaries.WorkspaceTests.test_all_shipped_secret_signatures_reject_synthetic_bytes) ... ok
+test_case_variant_hold_rejects_through_collector (test_boundaries.WorkspaceTests.test_case_variant_hold_rejects_through_collector) ... ok
+test_committed_symlink_refused (test_boundaries.WorkspaceTests.test_committed_symlink_refused) ... ok
+test_compare_and_swap_failure_keeps_refs_unmoved (test_boundaries.WorkspaceTests.test_compare_and_swap_failure_keeps_refs_unmoved) ... ok
+test_decomposed_unicode_hold_rejects_through_collector (test_boundaries.WorkspaceTests.test_decomposed_unicode_hold_rejects_through_collector) ... ok
+test_duplicate_paths_refused (test_boundaries.WorkspaceTests.test_duplicate_paths_refused) ... ok
+test_executable_mode_refused (test_boundaries.WorkspaceTests.test_executable_mode_refused) ... ok
+test_fresh_history_and_repeat (test_boundaries.WorkspaceTests.test_fresh_history_and_repeat) ... ok
+test_normalized_deny_prefix (test_boundaries.WorkspaceTests.test_normalized_deny_prefix) ... ok
+test_only_committed_allowlisted_bytes (test_boundaries.WorkspaceTests.test_only_committed_allowlisted_bytes) ... ok
+test_second_changed_publish_preserves_checked_parent (test_boundaries.WorkspaceTests.test_second_changed_publish_preserves_checked_parent) ... ok
+test_secret_filename_refused (test_boundaries.WorkspaceTests.test_secret_filename_refused) ... ok
+test_secret_pattern_refused_without_value_in_error (test_boundaries.WorkspaceTests.test_secret_pattern_refused_without_value_in_error) ... ok
+test_symbolic_managed_reference_refused (test_boundaries.WorkspaceTests.test_symbolic_managed_reference_refused) ... ok
+test_symbolic_target_reference_refused (test_boundaries.WorkspaceTests.test_symbolic_target_reference_refused) ... ok
+test_tree_tampering_prevents_branch_move (test_boundaries.WorkspaceTests.test_tree_tampering_prevents_branch_move) ... ok
+test_unknown_branch_history_refused (test_boundaries.WorkspaceTests.test_unknown_branch_history_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 4.650s
+
+OK

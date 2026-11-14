@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "accepted": true,
+  "repeat_accepted": false,
+  "messages": [
+    {
+      "channel": "CFIXTURE",
+      "thread_ts": "1760000000.123456",
+      "text": "Synthetic Operations Lead\nThe fictional launch needs a support readiness check.\n\nHandoff to Synthetic Risk Reviewer\nWhat should we verify?",
+      "mrkdwn": false,
+      "parse": "none",
+      "link_names": false,
+      "unfurl_links": false,
+      "unfurl_media": false
+    },
+    {
+      "channel": "CFIXTURE",
+      "thread_ts": "1760000000.123456",
+      "text": "Synthetic Risk Reviewer\nExercise the synthetic support-volume failure case before deciding.",
+      "mrkdwn": false,
+      "parse": "none",
+      "link_names": false,
+      "unfurl_links": false,
+      "unfurl_media": false
+    }
+  ],
+  "network_transport_included": false,
+  "live_acceptance": false
+}

@@ -1,19 +1,20 @@
 ---
-version: "2.1"
+version: "2.2"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Evidence and current capability boundaries
 
-**Version 2.1** · 2026-11-13
+**Version 2.2** · 2026-11-14
 
 The [architecture atlas](atlas/README.md) adds deep mechanism descriptions and a
 [scoped source inventory](atlas/component-inventory.json). Its 366 declared private
 delivery test functions are source measurements, separate from the 39 recorded
 public fixture passes. No live deployment claim follows from either source count.
 
-Checked for this documentation revision on 2026-11-13. Status labels describe the
+Architecture inspection is dated 2026-11-13; public-fixture execution was repeated
+on 2026-11-14. [Raw results and environment](../evidence/2026-11-14/README.md). Status labels describe the
 kind of evidence, not a percentage complete or an organization-wide readiness score.
 
 | Label | Meaning |
@@ -74,10 +75,11 @@ locking does not establish cross-host consistency.
 
 ## Acceptance still separate
 
-The 39 tests above passed locally and from their three source archives in the
-earlier evidence publication; they were not rerun as a new whole-system suite for
-this prose revision. Hosted verification has not executed successfully; no hosted
-CI pass is claimed here. This review does not audit live Notion round trips,
+The 39 tests above passed in the earlier evidence publication and were rerun on
+2026-11-14 from the hash-verified release ZIPs, with all 39 passing and all three
+demos exiting 0. [Execution receipt](../evidence/2026-11-14/verification.json). This
+is a rerun of those public fixtures, not a new whole-system suite. Hosted
+verification has not executed successfully; no hosted CI pass is claimed here. This review does not audit live Notion round trips,
 every registered automation, all application grants, fleet health or model quality.
 
 Program-wide employee commissioning, accepted automatic peer communication,
