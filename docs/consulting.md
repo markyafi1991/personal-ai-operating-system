@@ -1,12 +1,14 @@
 ---
-version: "2.0"
+version: "2.1"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # From a project specification to accepted delivery
 
-**Version 2.0** · 2026-11-13
+**Version 2.1** · 2026-11-13
+Explore the detailed [architecture atlas: delivery phase contracts](atlas/delivery-engine.md).
+
 
 The delivery architecture connects reusable knowledge to a project dossier,
 structured intake, execution state, phase artifacts, verification and owner

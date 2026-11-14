@@ -1,12 +1,14 @@
 ---
-version: "2.0"
+version: "2.1"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # Agent procedures, code and permission boundaries
 
-**Version 2.0** · 2026-11-13
+**Version 2.1** · 2026-11-13
+Explore the detailed [architecture atlas: agent procedure and runtime design](atlas/agent-runtime.md).
+
 
 The canonical agent entry point directs tools to the operating contract, then
 HOME, priorities, principles, the relevant hub and recent context. Skills supply

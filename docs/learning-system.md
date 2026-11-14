@@ -1,12 +1,14 @@
 ---
-version: "2.0"
+version: "2.1"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # Learning as a source-linked knowledge graph
 
-**Version 2.0** · 2026-11-13
+**Version 2.1** · 2026-11-13
+Explore the detailed [architecture atlas: information lifecycle](atlas/information-lifecycle.md).
+
 
 The learning subsystem is organized around resource notes, source artifacts,
 Tool/Area MOCs, curricula and competency maps. This documents its current schema

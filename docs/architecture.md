@@ -1,12 +1,14 @@
 ---
-version: "2.0"
+version: "2.1"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # The vault that was built
 
-**Version 2.0** · 2026-11-13
+**Version 2.1** · 2026-11-13
+Explore the detailed [architecture atlas: knowledge model and graph](atlas/knowledge-model.md).
+
 
 The vault combines a business knowledge graph with operating procedures and
 engineering tools. Obsidian supplies navigation and views; the durable knowledge

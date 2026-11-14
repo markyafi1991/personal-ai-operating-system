@@ -1,12 +1,17 @@
 ---
-version: "2.0"
+version: "2.1"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # Evidence and current capability boundaries
 
-**Version 2.0** · 2026-11-13
+**Version 2.1** · 2026-11-13
+
+The [architecture atlas](atlas/README.md) adds deep mechanism descriptions and a
+[scoped source inventory](atlas/component-inventory.json). Its 366 declared private
+delivery test functions are source measurements, separate from the 39 recorded
+public fixture passes. No live deployment claim follows from either source count.
 
 Checked for this documentation revision on 2026-11-13. Status labels describe the
 kind of evidence, not a percentage complete or an organization-wide readiness score.

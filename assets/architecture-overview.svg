@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-label="AI OS architecture map: knowledge graph, procedures and guardrails, connected surfaces and delivery">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="none" stroke="#a7cfbb" stroke-width="1.5"/></marker></defs>
+<rect width="1440" height="1040" rx="24" fill="#102d25"/>
+<text x="48" y="58" fill="#b8d3c5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">ALGONQUIN CONSULT  /  ENGINEERING CASE STUDY</text>
+<text x="48" y="120" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">The vault as an operating system</text>
+<text x="48" y="160" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400">Knowledge, procedures, integrations and delivery connected by explicit contracts.</text>
+<rect x="48" y="194" width="316" height="102" rx="10" fill="#1b4335" stroke="#3c6956"/>
+<text x="68" y="242" fill="#e4c479" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">68</text>
+<text x="68" y="274" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400">selected business procedures</text>
+<rect x="390" y="194" width="316" height="102" rx="10" fill="#1b4335" stroke="#3c6956"/>
+<text x="410" y="242" fill="#e4c479" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">20</text>
+<text x="410" y="274" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400">selected supporting modules</text>
+<rect x="732" y="194" width="316" height="102" rx="10" fill="#1b4335" stroke="#3c6956"/>
+<text x="752" y="242" fill="#e4c479" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">41</text>
+<text x="752" y="274" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400">delivery implementation files</text>
+<rect x="1074" y="194" width="316" height="102" rx="10" fill="#1b4335" stroke="#3c6956"/>
+<text x="1094" y="242" fill="#e4c479" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">366</text>
+<text x="1094" y="274" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400">declared delivery test functions</text>
+<text x="48" y="350" fill="#b8d3c5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">KNOWLEDGE GRAPH</text>
+<rect x="48" y="378" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="48" y="378" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="68" y="413" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Orientation and identity</text>
+<text x="68" y="447" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">HOME, area hubs, typed notes</text>
+<text x="68" y="473" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Stable IDs, versions, metadata</text>
+<rect x="48" y="536" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="48" y="536" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="68" y="571" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Source-linked knowledge</text>
+<text x="68" y="605" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Capture, provenance and MOCs</text>
+<text x="68" y="631" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Curricula and competency maps</text>
+<rect x="48" y="694" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="48" y="694" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="68" y="729" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Project specifications</text>
+<text x="68" y="763" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Decision context and requirements</text>
+<text x="68" y="789" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Reusable templates and artifacts</text>
+<path d="M472 440 H499" stroke="#a7cfbb" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M472 598 H499" stroke="#a7cfbb" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M472 756 H499" stroke="#a7cfbb" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="504" y="350" fill="#b8d3c5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">PROCEDURES AND GUARDRAILS</text>
+<rect x="504" y="378" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="504" y="378" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="524" y="413" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Agent workflow library</text>
+<text x="524" y="447" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Context routes and composed skills</text>
+<text x="524" y="473" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Owner context and human seams</text>
+<rect x="504" y="536" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="504" y="536" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="524" y="571" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Deterministic engineering</text>
+<text x="524" y="605" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Normalize, classify, hash, validate</text>
+<text x="524" y="631" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">State, receipts and traces</text>
+<rect x="504" y="694" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="504" y="694" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="524" y="729" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Scoped materialization</text>
+<text x="524" y="763" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Committed source and checked bytes</text>
+<text x="524" y="789" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Separate history and credentials</text>
+<path d="M928 440 H955" stroke="#a7cfbb" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M928 598 H955" stroke="#a7cfbb" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M928 756 H955" stroke="#a7cfbb" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="960" y="350" fill="#b8d3c5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">SURFACES AND DELIVERY</text>
+<rect x="960" y="378" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="960" y="378" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="980" y="413" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Catalog synchronization</text>
+<text x="980" y="447" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Field ownership and registries</text>
+<text x="980" y="473" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Plan, apply, read back, checkpoint</text>
+<rect x="960" y="536" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="960" y="536" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="980" y="571" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Execution reconciliation</text>
+<text x="980" y="605" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Business and engineering lanes</text>
+<text x="980" y="631" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Generated task-state references</text>
+<rect x="960" y="694" width="420" height="132" rx="12" fill="#f0f5ef"/>
+<rect x="960" y="694" width="6" height="132" rx="3" fill="#c6a45b"/>
+<text x="980" y="729" fill="#173b2d" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Governed project delivery</text>
+<text x="980" y="763" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Phase gates and artifact identity</text>
+<text x="980" y="789" fill="#395747" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Verification, review and acceptance</text>
+<text x="48" y="906" fill="#e4c479" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">SCOPED SOURCE SNAPSHOT  /  13 NOVEMBER 2026</text>
+<text x="48" y="941" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Counts describe named selections and overlap. Definitions and source are distinct from runtime acceptance.</text>
+<text x="48" y="976" fill="#e9f3ed" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">Read the atlas for data contracts, state transitions, failure behavior and the exact public evidence.</text>
+</svg>
