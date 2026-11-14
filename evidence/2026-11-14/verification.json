@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "scope": "Local rerun of hash-verified, published synthetic evidence archives. No live transport, whole-vault test or v1 acceptance.",
+  "environment": {
+    "python": "3.14.5",
+    "git": "git version 2.55.0",
+    "os": "Darwin",
+    "architecture": "arm64"
+  },
+  "network_during_execution": false,
+  "dependencies": "Python standard library; Git for the workspace fixture; POSIX environment for the state fixture.",
+  "suites": [
+    {
+      "repository": "scoped-ai-workspaces",
+      "commit": "99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02",
+      "archive": {
+        "filename": "scoped-ai-workspaces-evidence-2026-11-13.zip",
+        "sha256": "9f7e7aeb73c6a059486417ff642012cdddb3e44511ffd3f25d4172fed727c030",
+        "release_url": "https://github.com/markyafi1991/scoped-ai-workspaces/releases/tag/evidence-2026-11-13"
+      },
+      "runs": [
+        {
+          "kind": "tests",
+          "command": [
+            "python3",
+            "-B",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ],
+          "working_directory": "extracted archive root",
+          "exit_code": 0,
+          "artifact": "scoped-ai-workspaces-tests.txt",
+          "sha256": "d8c4a6637dc525805f86af7517a47fcc5aa5307c22bd6a11b5e24dcdad5bf32a",
+          "tests": 17,
+          "result": "passed"
+        },
+        {
+          "kind": "demo",
+          "command": [
+            "python3",
+            "-B",
+            "demo.py"
+          ],
+          "working_directory": "extracted archive root",
+          "exit_code": 0,
+          "artifact": "scoped-ai-workspaces-demo.json",
+          "sha256": "87017cd4f8adac292729cf6bf063167983e34270294a0faa899dbcb28e7f4ab8",
+          "result": {
+            "synthetic": true,
+            "selected_files": 1,
+            "fresh_root": true,
+            "repeat_is_noop": true,
+            "source_commit_is_parent": false,
+            "live_employee_grants": false,
+            "network_transport_included": false
+          }
+        }
+      ]
+    },
+    {
+      "repository": "governed-slack-collaboration",
+      "commit": "893cda33cdbddbc389e03ff18490abd10d5abc57",
+      "archive": {
+        "filename": "governed-slack-collaboration-evidence-2026-11-13.zip",
+        "sha256": "f782dca9547cc7d05a7990188ed7939d11c7685878eb8f00224ab18eae19c45b",
+        "release_url": "https://github.com/markyafi1991/governed-slack-collaboration/releases/tag/evidence-2026-11-13"
+      },
+      "runs": [
+        {
+          "kind": "tests",
+          "command": [
+            "python3",
+            "-B",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ],
+          "working_directory": "extracted archive root",
+          "exit_code": 0,
+          "artifact": "governed-slack-collaboration-tests.txt",
+          "sha256": "f07a123d4438b0e28989fcd699951246de0c32d3738bd45220d163d27136ca4a",
+          "tests": 13,
+          "result": "passed"
+        },
+        {
+          "kind": "demo",
+          "command": [
+            "python3",
+            "-B",
+            "demo.py"
+          ],
+          "working_directory": "extracted archive root",
+          "exit_code": 0,
+          "artifact": "governed-slack-collaboration-demo.json",
+          "sha256": "0ec4f6bd7256ed7d32d4067b3fb3c47e030bc6b1a33b71c0b3dae2dc1d805cb3",
+          "result": {
+            "synthetic": true,
+            "accepted": true,
+            "repeat_accepted": false,
+            "messages": [
+              {
+                "channel": "CFIXTURE",
+                "thread_ts": "1760000000.123456",
+                "text": "Synthetic Operations Lead\nThe fictional launch needs a support readiness check.\n\nHandoff to Synthetic Risk Reviewer\nWhat should we verify?",
+                "mrkdwn": false,
+                "parse": "none",
+                "link_names": false,
+                "unfurl_links": false,
+                "unfurl_media": false
+              },
+              {
+                "channel": "CFIXTURE",
+                "thread_ts": "1760000000.123456",
+                "text": "Synthetic Risk Reviewer\nExercise the synthetic support-volume failure case before deciding.",
+                "mrkdwn": false,
+                "parse": "none",
+                "link_names": false,
+                "unfurl_links": false,
+                "unfurl_media": false
+              }
+            ],
+            "network_transport_included": false,
+            "live_acceptance": false
+          }
+        }
+      ]
+    },
+    {
+      "repository": "launch-engagement-automation",
+      "commit": "f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1",
+      "archive": {
+        "filename": "launch-engagement-state-evidence-2026-11-13.zip",
+        "sha256": "90d72435a16cbff0d522b8c6bfebb46c6d6f2a68b5d8f66592fdc55780c28e21",
+        "release_url": "https://github.com/markyafi1991/launch-engagement-automation/releases/tag/evidence-2026-11-13"
+      },
+      "runs": [
+        {
+          "kind": "tests",
+          "command": [
+            "python3",
+            "-B",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-v"
+          ],
+          "working_directory": "extracted archive root",
+          "exit_code": 0,
+          "artifact": "launch-engagement-automation-tests.txt",
+          "sha256": "099cf7591927fbc2e7bdcc7b7a9081a1286aeded363b33c4c1a8920db0d8f1d6",
+          "tests": 9,
+          "result": "passed"
+        },
+        {
+          "kind": "demo",
+          "command": [
+            "python3",
+            "-B",
+            "demo.py"
+          ],
+          "working_directory": "extracted archive root",
+          "exit_code": 0,
+          "artifact": "launch-engagement-automation-demo.json",
+          "sha256": "85ce476d927bd348c2a4174b0befc54dd2a60966c8f49ad87821abe9373e40f7",
+          "result": {
+            "synthetic": true,
+            "separate_paths": true,
+            "stale_revision_refused": true,
+            "schema": 2,
+            "end_to_end_engagement": false,
+            "v1_shipped": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_tests_passed": 39,
+  "documentation_quickstarts": [
+    {
+      "route": "checksum-verified archive",
+      "shell_block_sha256": "1396967a8960aaa8fdcea6f9ad19dd8237fe0354909fb6bc5c4f5779357c0e98",
+      "exit_code": 0,
+      "method": "Exact Markdown shell block executed with new public download/checkouts in temporary directories. No private input."
+    },
+    {
+      "route": "three pinned Git snapshots",
+      "shell_block_sha256": "7d13edbb1039f2cfddbc5417029a1de039f20f27ee5f4bef66986b64550d7d59",
+      "exit_code": 0,
+      "method": "Exact Markdown shell block executed with new public download/checkouts in temporary directories. No private input."
+    }
+  ]
+}

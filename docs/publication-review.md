@@ -1,20 +1,26 @@
 ---
-version: "3.0"
+version: "3.1"
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Documentation publication review
 
-**Version 3.0** · 2026-11-13
+**Version 3.1** · 2026-11-14
 
 ## Definition of done
 
-Replace the stale main narrative and illustrative examples; describe the current
-vault relationships; assign evidence/status to capability claims; retain exact
-technical release pins; keep private records out; update the existing PR and
-read back the new head, description and visible change comment. No merge,
-private export, source policy amendment, runtime change or PDF publication.
+The earlier refresh replaced stale documentation, described the actual vault
+relationships and assigned evidence categories; it was published through owner-
+authorized PRs 1 and 2. Those reviews retained immutable technical evidence pins
+and excluded private records.
+
+This 2026-11-14 follow-up makes the work easier to evaluate: a problem-led front
+page, source-linked review guide, executable pinned instructions and fresh
+public-fixture transcripts. Preserve the detailed atlas and earlier evidence.
+Verify the exact changed payload, open a follow-up PR and read back its head,
+description and change comment. Owner merge of that PR is a separate action.
+No private export, runtime change, policy amendment or PDF publication.
 
 ## Source and privacy method
 
@@ -36,8 +42,10 @@ This is a documentation-only change: Codex is the author and performs the source
 privacy, citation and link checks. No implementation or access policy is changed.
 The existing independent RELEASE receipt remains bound to the earlier technical
 evidence snapshots; it is not advertised as approval of this revised prose.
-Owner review and merge of the open PR remain pending. No new independent AI
-review or live deployment audit is claimed for the refresh.
+The owner authorized merging PR 1 and then the comprehensive atlas in
+[PR 2](https://github.com/markyafi1991/personal-ai-operating-system/pull/2). The
+2026-11-14 presentation/evidence follow-up has its own review and merge boundary.
+No new independent release judgment or live deployment audit is claimed.
 
 ## Corrections made
 
@@ -83,3 +91,30 @@ public payload privacy, source/claim bindings and rendered overview layout. Priv
 source hashes remain private. The original public proof commits, report pins and
 release tags are preserved. This is a new documentation review, not an inherited
 independent code release judgment or a fresh whole-system runtime acceptance.
+
+
+## 2026-11-14 — Review path and observable proof
+
+This follow-up sharpens the front page around engineering problems and observable
+results, adds a review guide and pinned reproduction commands, and records a fresh
+run of the existing public tests. The detailed architecture and historical report
+pins are retained. New vector graphics are explanatory artwork labeled with their
+source/result scope; they are not screenshots of a live employee deployment.
+
+Two separate read-only reviewers assessed clarity and reproducibility. They are
+additional review passes, not a different-tool release judge or a hiring-outcome
+validation. This is documentation and captured fixture output; no runtime source,
+access policy, grant, schedule or private export was changed.
+
+Publication checks cover link and source-anchor validity, exact archive/result
+hashes, verbatim quickstart execution, front-page image rendering, and privacy.
+The dated [run record](../evidence/2026-11-14/README.md) distinguishes local test
+execution from hosted CI, live acceptance and product release. The earlier
+independent code judgment remains bound to its original snapshots. Owner-directed
+architecture and AI-assisted implementation/documentation are disclosed in the
+README; no unsupported commercial impact or employment outcome is claimed.
+
+Editorial review criteria were also checked against GitHub's guidance on a
+[helpful project README](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume):
+concise overview, demo, setup instructions and tests. That guidance is a
+presentation reference, not evidence that a portfolio will secure employment.
