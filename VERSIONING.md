@@ -9,14 +9,15 @@ updated: 2026-11-14
 **Version 1.0** · 2026-11-14
 
 `VERSION` is the authoritative package version for this public architecture
-showcase. The first explicit package version is `3.1.0-rc.1`, continuing the
-README's 3.1 documentation edition. No historical semantic tags are invented.
+showcase. The first explicit package version is `0.1.0-rc.1`, reflecting an early, evolving
+showcase. The README's 3.1 is its document edition, not package maturity. No
+historical semantic tags are invented.
 
 ## Separate identities
 
 | Identity | Meaning | Example |
 |---|---|---|
-| Showcase release | Versioned public documentation, examples and evidence package | `showcase-v3.1.0-rc.1` |
+| Showcase release | Versioned public documentation, examples and evidence package | `showcase-v0.1.0-rc.1` |
 | Individual document edition | Revision of that document; it need not match the package | README 3.1; this policy 1.0 |
 | Engine release | Actual Launch-Engagement software milestone | Beta; v1 acceptance remains separate |
 | Article or report edition | Editorial publication with its own date and corrections | Article edition 1.0 plus exact cited showcase tag/commit |
@@ -36,7 +37,8 @@ or manifest schema. Minor: add an architecture chapter, public demonstration or
 review path while preserving earlier entry points. Patch: compatible corrections,
 links or clarity. A correction to a factual claim still gets a changelog entry.
 
-Use `-rc.1`, `-rc.2`, and so on for review candidates. Use a fresh number after
+Use `-rc.1`, `-rc.2`, and so on for review candidates. Before 1.0, the documented contract is provisional; a 0.x minor release can
+revise it and must document changes. Use a fresh number after
 publication; never replace published bytes under an existing version. A stable
 showcase release requires owner-authorized merge to main and completed publication
 review. Stable means reviewed showcase content, not production readiness of every

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "3.1.0-rc.1",
-  "tag": "showcase-v3.1.0-rc.1",
+  "version": "0.1.0-rc.1",
+  "tag": "showcase-v0.1.0-rc.1",
   "date": "2026-11-14",
   "channel": "release-candidate",
   "scope": "Public showcase package only; engine remains Beta; v1_shipped is false.",
@@ -16,7 +16,7 @@
       "bytes": 452
     },
     "CHANGELOG.md": {
-      "sha256": "38583ffef48fb24e0842fe196f9225347aac16d8277c1e6ba58cfd2e9f426f35",
+      "sha256": "7eee438c6e928cf0c72cb7f953e40d5eef4109a0387a52defb3cdfb56490d7da",
       "bytes": 1295
     },
     "LICENSE": {
@@ -24,16 +24,16 @@
       "bytes": 459
     },
     "README.md": {
-      "sha256": "e8d44986596dffb0102b62264f051337d9077c1f8e0b3c793ab878e7b14de066",
+      "sha256": "b416ac44ccf701132ad66e32fb8a6a8d6dc5d03b355f11d3f4230b1f1beb7065",
       "bytes": 8249
     },
     "VERSION": {
-      "sha256": "6d8a34718ea306c7e03719b8700d219b2eab836651286368ec957e1eb9f2ba5a",
+      "sha256": "5c9c112fc83af1a2f8c196a676c8f81d1a28aab1ffe9bacd0e8265a150e2e20e",
       "bytes": 11
     },
     "VERSIONING.md": {
-      "sha256": "2ca82d1b18e86436d21db513a7c5dbf4b68329f845c6a33711b24f8c0d54fc25",
-      "bytes": 4641
+      "sha256": "13325baa19838b818cf97043d3903386f824e3f070287c0fd30eceabe22cc382",
+      "bytes": 4807
     },
     "assets/architecture-overview.svg": {
       "sha256": "c02668a0ad207b6c026a280bfec8228f84917a0759484cdec6442c5bd5db1444",

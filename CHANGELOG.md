@@ -10,7 +10,7 @@ updated: 2026-11-14
 
 This log versions the public showcase. It does not announce engine v1 shipment.
 
-## 3.1.0-rc.1 — 2026-11-14 — Review candidate
+## 0.1.0-rc.1 — 2026-11-14 — Review candidate
 
 Add a problem-led README, engineering review guide, two vector graphics and exact
 archive/Git reproduction instructions. Record 39 passing synthetic tests and three
