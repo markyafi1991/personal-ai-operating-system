@@ -1,12 +1,12 @@
 ---
-version: "2.0"
+version: "3.0"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
 # Documentation publication review
 
-**Version 2.0** · 2026-11-13
+**Version 3.0** · 2026-11-13
 
 ## Definition of done
 
@@ -62,3 +62,24 @@ update. Hosted CI and live acceptance retain the limits in the evidence register
 
 References: [evidence register](evidence-and-status.md),
 [architecture](architecture.md), [report crosswalk](current-evidence-architecture.md).
+
+
+## Comprehensive atlas expansion
+
+The follow-up case study adds nine mechanism chapters, an atlas index, a selected
+component catalog and design tradeoffs, supported by eight Mermaid diagrams and
+a vector architecture overview. Its inventory is generated from a finite allowlist
+of business procedure definitions and engineering source. Restricted skills are
+excluded using the publication guard; no operational registry contents are read.
+
+Measurements distinguish existing source/definitions from accepted behavior.
+The catalog counts 68 selected procedure definitions and 20 supporting modules;
+the private delivery subtree is measured separately at 41 implementation files
+and 17 test/support files with 366 declared test functions. Scopes overlap.
+None of these measurements is a whole-vault total or a test pass claim.
+
+Verification covers local links, source measurement consistency, diagram structure,
+public payload privacy, source/claim bindings and rendered overview layout. Private
+source hashes remain private. The original public proof commits, report pins and
+release tags are preserved. This is a new documentation review, not an inherited
+independent code release judgment or a fresh whole-system runtime acceptance.

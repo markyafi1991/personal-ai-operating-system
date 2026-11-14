@@ -1,95 +1,93 @@
 ---
-version: "2.0"
+version: "3.0"
 created: 2026-11-13
 updated: 2026-11-13
 ---
 
-# AI Operating System — Vault Architecture Showcase
+# AI OS — Engineering a governed knowledge and delivery system
 
-**Version 2.0** · 2026-11-13
+**Version 3.0** · 2026-11-13
 
-Mark Yafi's AI OS is a private Markdown vault with a typed knowledge graph,
-agent procedures, deterministic Python utilities and connected work surfaces.
-This repository explains the architecture actually recorded in its current
-conventions and engineering source. It publishes newly written explanations and
-invented examples; the actual vault repositories remain private. [Evidence and status](docs/evidence-and-status.md).
+A private Markdown knowledge graph connected to a procedural agent layer,
+deterministic Python tools, scoped employee repositories, application-state
+reconciliation and artifact-bound project delivery. Built by **Mark Yafi,
+Algonquin Consult LLC**.
 
-The key separation is between durable knowledge, execution state, review fields,
-employee access and delivered evidence. Each has an owner and a different release
-boundary. A diagram describes their relationships; it does not certify their live health.
+![AI OS architecture map: knowledge graph, procedures, integrations and delivery](assets/architecture-overview.svg)
 
-```mermaid
-flowchart TD
-  H[HOME and area hubs] --> V[Typed Markdown notes and linked artifacts]
-  I[Clippings and source capture] --> L[Learning notes and cited concept maps]
-  L --> V
-  V --> N[Notion catalogs and review fields]
-  N -->|Only named owner-controlled fields| R[Explicit readback and reconciliation]
-  R --> V
-  V --> T[ClickUp business or Linear engineering execution]
-  T -->|Generated reference records| V
-  V --> X[Reviewed content selection from a source commit]
-  X --> E[Scoped private employee repositories]
-  E --> A[Separately authorized employee runtime and app access]
-  A --> S[Slack conversation and bounded handoffs]
-  V --> D[Delivery skills and deterministic gates]
-  D --> G[Verification and owner acceptance]
-  G --> P[Versioned delivery or curated public evidence]
-```
+The system's complexity lives in its contracts: how knowledge is typed and reused,
+which surface owns a field, which source revision an employee receives, what an
+approval binds, and how work recovers after an uncertain result. This repository
+makes those mechanisms inspectable through a detailed architecture atlas, measured
+component catalog, worked journeys and pinned runnable evidence.
 
-## Start here
+## Explore the system
 
-| Document | What it explains |
-|---|---|
-| [Vault architecture](docs/architecture.md) | Actual business folder roles, note metadata, hubs, MOCs and source ownership |
-| [Skills and automation](docs/skills-system.md) | Agent entry contract, deterministic utilities, review and permission boundaries |
-| [Learning lifecycle](docs/learning-system.md) | Inbox, capture, source material, course/article notes, concept maps and practice |
-| [Delivery workflow](docs/consulting.md) | Project specification, execution lane, phase gates, evidence and acceptance |
-| [Evidence and status](docs/evidence-and-status.md) | Implemented source, public demonstrations, operating rules and proposed work |
-| [Report crosswalk](docs/current-evidence-architecture.md) | November draft sections and immutable technical evidence |
-| [Publication review](docs/publication-review.md) | What was inspected, excluded and verified for this documentation revision |
+| Layer | What was built | Read the mechanism |
+|---|---|---|
+| Knowledge graph | Typed notes, stable identities, area hubs, source-linked MOCs, project specifications and artifacts | [Knowledge model](docs/atlas/knowledge-model.md) |
+| Information lifecycle | Resource-specific capture, curation, provenance, learning progress, enrollment and application | [Lifecycle](docs/atlas/information-lifecycle.md) |
+| Agent workflow | Context routing, composable skills, owner context and deterministic tool seams | [Agent and procedure layer](docs/atlas/agent-runtime.md) |
+| Integration | Catalog planners, hash/registry change classification, field ownership and generated execution references | [Synchronization](docs/atlas/synchronization.md) |
+| Permission boundary | Source-commit selection, checked bytes, managed destination history and distinct credential/app grants | [Permission and publication](docs/atlas/permissions-and-publication.md) |
+| Project delivery | Structured intake, lane-specific phase contracts, per-project state and bound evidence | [Delivery engine](docs/atlas/delivery-engine.md) |
+| Reliability | Explicit refusal, stale-input detection, replay handling, metadata trace and recovery paths | [Verification and recovery](docs/atlas/reliability.md) |
 
-## What is working, and what is still to prove?
+Start with the [architecture atlas](docs/atlas/README.md), then follow the
+[three worked journeys](docs/atlas/worked-journeys.md) to see the layers interact.
+The [design tradeoffs](docs/atlas/design-tradeoffs.md) explain the costs and
+benefits visible in the implementation.
 
-The private vault structure, metadata conventions and engineering modules were
-inspected for this revision. The public runnable evidence is narrower:
+## Measured implementation breadth
 
-| Evidence snapshot | Reproducible scope | Tests in that slice |
+| Inspected scope | Measurement | What the number means |
+|---|---:|---|
+| Selected business procedure definitions | **68**, in six families | Existing procedure definitions, not accepted employee executions |
+| Selected supporting engineering modules | **20**, in five families | Named catalog, reconciliation, integrity, publication and collaboration components |
+| Private delivery implementation subtree | **41 Python files** | Decomposed intake, contracts, phase runners, state, runtime and evidence machinery |
+| Its test/support subtree | **17 Python files; 366 declared test functions** | Source definitions, not a fresh test execution result |
+
+These are scoped measurements, not totals for the entire vault. The selections
+overlap. [Full component catalog](docs/atlas/component-catalog.md) ·
+[Machine-readable measurement and method](docs/atlas/component-inventory.json).
+
+## Follow an actual engineering seam
+
+| Public snapshot | Runnable evidence | Recorded synthetic tests |
 |---|---|---:|
-| [Scoped workspaces](https://github.com/markyafi1991/scoped-ai-workspaces/tree/99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02) | Committed-content selection and checked Git transaction using invented records | 17 |
-| [Slack employee collaboration](https://github.com/markyafi1991/governed-slack-collaboration/tree/893cda33cdbddbc389e03ff18490abd10d5abc57) | Offline event routing, one peer handoff and replay/failure handling | 13 |
-| [Engagement state](https://github.com/markyafi1991/launch-engagement-automation/tree/f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1/evidence/2026-11-13) | Per-engagement state, explicit revision checks and advisory-index recovery | 9 |
+| [Scoped workspace construction](https://github.com/markyafi1991/scoped-ai-workspaces/tree/99105caa3be9f9f2c243ef7d6d1ca3c23d91ac02) | Committed content, known secret rejection, normalized held paths, checked tree, fresh/later history and update failures | 17 |
+| [Employee collaboration](https://github.com/markyafi1991/governed-slack-collaboration/tree/893cda33cdbddbc389e03ff18490abd10d5abc57) | Allowed event routing, visible peer handoff, replay suppression and interrupted delivery | 13 |
+| [Per-engagement state](https://github.com/markyafi1991/launch-engagement-automation/tree/f6de2227fa4ffbb50dbb07ea7d35180aa35e6cf1/evidence/2026-11-13) | Project-specific state, explicit revision checks, atomic primary write and advisory-index recovery | 9 |
 
-Those **39 synthetic tests** passed locally and from the source archives for the
-linked evidence releases. This is not a fresh hosted CI pass or a test of the whole
-vault. Live employee commissioning, real peer round-trip acceptance, complete
-project-package reproduction and Launch-Engagement v1 acceptance require their
-own evidence. The engine remains **Beta**. See [status definitions](docs/evidence-and-status.md).
+Those **39 tests** passed locally and from the published source archives at the
+evidence release. They exercise the declared synthetic slices. The atlas describes
+additional inspected private implementation; it does not imply that all private
+code or live services ship in these small public repositories.
 
-## Explore a safe miniature
+## Current capability and acceptance
 
-[Synthetic vault HOME](examples/synthetic-vault/HOME.md) links a context note,
-fictional learning note, concept map and project specification. It illustrates
-the navigation and metadata relationships without exposing actual notes, studies,
-clients, task records or operating history. The examples are illustrative documents,
-not an installed Obsidian configuration or a functioning sync service.
+The [evidence register](docs/evidence-and-status.md) distinguishes inspected
+implementation, documented operating rules, public demonstrations and pending
+acceptance. Live employee commissioning, accepted automatic peer communication,
+full fresh-operator package reproduction and the first accepted v1 engagement
+retain their own gates. **Launch-Engagement remains Beta.**
 
-The [public showcase inventory](docs/public-showcase-inventory.md) records the
-prepublication duplication review. [Report evidence pins](report-evidence-pins.json)
-retain the earlier exact technical snapshots; this documentation revision does not
-rewrite those commits or their release tags.
+The showcase contains newly authored explanations and invented examples. Actual
+vault repositories, credentials, client information, restricted material and
+private operational records remain outside the public tree.
+[Publication review](docs/publication-review.md) ·
+[Safe note-graph miniature](examples/synthetic-vault/HOME.md).
 
-## Privacy and publication
+## Reference and report navigation
 
-No private repository is converted to public. New prose and invented examples are
-selected explicitly; private records, credentials, internal grants and restricted
-source material are excluded. Gitignore affects Git selection, not what a local
-process can read. Scoped repository credentials and separately controlled app
-permissions supply distinct access boundaries. See [the boundary model](docs/skills-system.md).
+- [Vault structure and ownership reference](docs/architecture.md)
+- [Skills reference](docs/skills-system.md), [learning reference](docs/learning-system.md), [delivery reference](docs/consulting.md)
+- [Report crosswalk](docs/current-evidence-architecture.md) and [immutable evidence pins](report-evidence-pins.json)
+- [Dated public-showcase duplication inventory](docs/public-showcase-inventory.md)
 
 Published predecessor: [July Beta report](https://www.linkedin.com/feed/update/urn:li:activity:7490949064436674560).
-The November continuation is unpublished; its future public URL and PDF hash must
-be added after approval. A report edition does not establish a v1 software release.
+The November continuation remains unpublished. Its document edition is separate
+from the engine's release milestone. Preserve the referenced code tags as the
+system and report evolve.
 
-Authored by Mark Yafi, Algonquin Consult LLC, with AI-assisted engineering.
 Shared for portfolio review and reference under [LICENSE](LICENSE).
